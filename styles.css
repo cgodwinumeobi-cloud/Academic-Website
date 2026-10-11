@@ -1184,63 +1184,70 @@ body:not(:has(.welcome-banner)) #quarto-margin-sidebar {
 @media (prefers-reduced-motion: reduce) { .home-editorial * { scroll-behavior: auto; } }
 
 
-/* ==================================================
-   MOBILE NAVIGATION — HORIZONTAL SOCIAL ICONS
-   ================================================== */
-
+/* MOBILE NAVIGATION: SOCIAL ICON ALIGNMENT */
 @media (max-width: 1199.98px) {
 
-  /* Keep the main navigation compact */
-  #quarto-header .navbar-collapse .navbar-nav:not(.navbar-nav-scroll) {
-    margin-bottom: 0.25rem;
-  }
-
-  #quarto-header .navbar-collapse .nav-link {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
-  /* Target Quarto's right-hand navigation group */
-  #quarto-header .navbar-collapse .navbar-nav.ms-auto,
-  #quarto-header .navbar-collapse .navbar-nav.navbar-nav-scroll.ms-auto {
+  /* Target the exact social-icon group */
+  #navbarCollapse > ul.navbar-nav.ms-auto {
     display: flex !important;
     flex-direction: row !important;
     flex-wrap: nowrap !important;
     justify-content: center !important;
     align-items: center !important;
-    gap: 0.5rem !important;
-    width: 100%;
-    margin: 0.5rem 0 0 !important;
-    padding: 0.75rem 0 0 !important;
-    border-top: 1px solid rgba(255,255,255,0.18);
+
+    width: 100% !important;
+    max-height: none !important;
+    overflow: visible !important;
+
+    margin: 12px 0 0 !important;
+    padding: 12px 0 !important;
+    gap: 12px !important;
+
+    border-top: 1px solid rgba(255,255,255,0.2);
   }
 
-  #quarto-header .navbar-collapse .navbar-nav.ms-auto > .nav-item {
+  /* Five evenly sized icon containers */
+  #navbarCollapse > ul.navbar-nav.ms-auto > li.nav-item {
     display: flex !important;
-    flex: 0 0 auto !important;
+    flex: 0 0 44px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 44px !important;
     margin: 0 !important;
     padding: 0 !important;
   }
 
-  #quarto-header .navbar-collapse .navbar-nav.ms-auto > .nav-item > .nav-link {
+  /* Center each icon inside its link */
+  #navbarCollapse > ul.navbar-nav.ms-auto > li.nav-item > a.nav-link {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 44px;
-    height: 44px;
+    width: 44px !important;
+    height: 44px !important;
     padding: 0 !important;
+    margin: 0 !important;
   }
 
-  /* Normalize icon alignment */
-  #quarto-header .navbar-collapse .navbar-nav.ms-auto .nav-link i,
-  #quarto-header .navbar-collapse .navbar-nav.ms-auto .nav-link svg,
-  #quarto-header .navbar-collapse .navbar-nav.ms-auto .nav-link img {
-    vertical-align: middle !important;
+  /* Standardize icon sizes */
+  #navbarCollapse > ul.navbar-nav.ms-auto i.bi {
+    font-size: 22px !important;
+    line-height: 1 !important;
   }
 
-  #quarto-header .navbar-collapse .navbar-nav.ms-auto .nav-link img {
-    width: 20px;
-    height: 20px;
+  /* Center the ORCID image */
+  #navbarCollapse > ul.navbar-nav.ms-auto img {
+    display: block !important;
+    width: 22px !important;
+    height: 22px !important;
     object-fit: contain;
+  }
+
+  /* Remove extra spacing from icon labels */
+  #navbarCollapse > ul.navbar-nav.ms-auto .menu-text {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }

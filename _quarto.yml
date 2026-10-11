@@ -1,0 +1,91 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Godwin Umeobi"
+  description: "Research in psychometrics, response latency, and assessment process data"
+  # Set site-url to your published website address when available.
+  navbar:
+    title: "Godwin Umeobi"
+    title-href: index.qmd
+    background: "#101f35"
+    foreground: "#ffffff"
+    search: true
+    collapse: true
+    collapse-below: xl
+    left:
+      - href: about.qmd
+        text: About Me
+      - text: Research
+        menu:
+          - text: Research Overview
+            href: research.qmd
+          - text: Research Interests
+            href: research/interests.qmd
+          - text: Academic Publications
+            href: research/publications.qmd
+          - text: Academic Presentations
+            href: research/academic-presentations.qmd
+          - text: Research Funding
+            href: research/funding.qmd
+          - text: Other Presentations
+            href: research/other-presentations.qmd
+      - text: Blogs & Reflections
+        menu:
+          - text: Research Reflections
+            href: blog/index.qmd
+          - text: Faith & Lifestyle
+            href: blogs/faith-lifestyle/index.qmd
+          - text: Leadership Reflections
+            href: blogs/leadership/index.qmd
+      - href: teaching.qmd
+        text: Teaching
+      - text: Services
+        menu:
+          - text: Services Overview
+            href: services.qmd
+          - text: Professional Activities
+            href: services/professional-activities.qmd
+          - text: Speaking Engagements
+            href: services/speaking-engagements.qmd
+          - text: Research Tools
+            href: services/research-tools.qmd
+          - text: Volunteering
+            href: services/volunteering.qmd
+          - text: Collaborations
+            href: services/collaborations.qmd
+      - href: podcast.qmd
+        text: Podcast
+      - href: events.qmd
+        text: Events
+    right:
+      - icon: envelope
+        href: "mailto:cgodwin.umeobi@gmail.com"
+        aria-label: Email
+      - text: '<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID" width="20" height="20">'
+        href: "https://orcid.org/0000-0001-7480-6451"
+        aria-label: "View ORCID profile"
+      - icon: facebook
+        href: "https://facebook.com/winiegoldelite"
+        aria-label: Facebook
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/godwin-umeobi"
+        aria-label: LinkedIn
+      - icon: google
+        href: "https://scholar.google.com/citations?hl=en&user=0lU0Js4AAAAJ"
+        aria-label: Google Scholar
+  page-footer:
+    border: false
+    center: |
+      © 2026 Godwin Umeobi
+
+      Built with [Positron](https://positron.posit.co/) and [Quarto](https://quarto.org/)
+
+      View source on [GitHub](https://github.com/)
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false

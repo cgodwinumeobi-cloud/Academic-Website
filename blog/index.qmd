@@ -1,0 +1,18 @@
+---
+title: "Research Reflections"
+subtitle: "Ideas, methods, reflections, and conversations in measurement science"
+listing:
+  contents: "posts/*/index.qmd"
+  type: grid
+  grid-columns: 2
+  sort: "date desc"
+  categories: true
+  feed: true
+  page-size: 9
+title-block-banner: true
+toc: false
+---
+
+This is my public research notebook: a place to reflect on research questions, engage with the literature, discuss methodological approaches, and develop ideas worth exploring.
+
+Posts represent scholarly commentary unless explicitly identified as formal peer-reviewed research. Exploratory claims should be interpreted with their stated limitations.

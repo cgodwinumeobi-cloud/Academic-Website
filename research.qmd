@@ -1,0 +1,24 @@
+---
+title: "Research"
+subtitle: "Research interests, publications, presentations, and funding"
+title-block-banner: true
+toc: false
+---
+
+My research focuses on **process data, response latency, survey responding behavior, and measurement quality**. I am particularly interested in what response timing and other interaction indicators can reveal about how people engage with survey items and digital assessments.
+
+Explore my research through the pages below.
+
+## Research Areas
+
+- **[Research Interests](research/interests.qmd)** — Response latency in video-based surveys, semantic sufficiency thresholds, and response processes in digital assessments.
+- **[Academic Publications](research/publications.qmd)** — Peer-reviewed publications and manuscripts, identified by their actual status.
+- **[Academic Presentations](research/academic-presentations.qmd)** — Conference presentations, posters, symposia, and submitted proposals.
+- **[Research Funding](research/funding.qmd)** — Research grants, fellowships, and other funding information.
+- **[Other Presentations](research/other-presentations.qmd)** — Workshops, invited talks, and professional presentations.
+
+## Research Collaborations
+
+I welcome opportunities for collaboration in psychometrics, assessment, and survey methodology.
+
+Interested in these topics? [Contact me](services/collaborations.qmd).

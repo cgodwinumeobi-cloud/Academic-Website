@@ -1,0 +1,32 @@
+---
+title: "Research Interests"
+subtitle: "Research areas, questions, and methods"
+title-block-banner: true
+toc: false
+---
+
+My current work examines three related areas.
+
+### Response Latency in Video-Based Surveys {#video-surveys}
+
+**Focus:** Response latency and item- and respondent-related characteristics in video-based noncognitive surveys.
+
+**Research questions:** How do item length, response format, semantic sufficiency, and respondent characteristics relate to response timing?
+
+**Methods:** Process-data analysis, multilevel models, item-level indicators, and exploratory visualizations.
+
+### Semantic Sufficiency Thresholds {#semantic-sufficiency}
+
+**Focus:** Identifying the earliest point in a spoken survey item at which sufficient meaning is available to support a response.
+
+**Research questions:** How consistently do human and AI raters identify sufficient meaning? What implications might this have for identifying premature responses?
+
+**Methods:** Rater agreement, threshold ratings, and timing-based indicators.
+
+### Response Processes in Digital Assessments {#digital-tasks}
+
+**Focus:** Understanding timing and action patterns in computer-administered tasks.
+
+**Research questions:** What can time to first action, total response time, and post-first-action timing reveal about task interaction?
+
+**Methods:** Descriptive process analytics and regression modeling.

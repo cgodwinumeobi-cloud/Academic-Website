@@ -1,0 +1,36 @@
+---
+title: "Blogs & Reflections"
+subtitle: "Research ideas, faith and lifestyle, and leadership perspectives"
+title-block-banner: true
+toc: false
+---
+
+Explore three spaces for writing and reflection.
+
+::: {.project-grid}
+
+::: {.project-card}
+### Research Reflections
+
+Research questions, methodological ideas, literature discussions, and reflections on measurement science.
+
+[Explore Research Reflections](../blog/index.qmd)
+:::
+
+::: {.project-card}
+### Faith & Lifestyle
+
+Reflections on faith, personal growth, life experiences, and everyday living.
+
+[Explore Faith & Lifestyle](faith-lifestyle/index.qmd)
+:::
+
+::: {.project-card}
+### Leadership Reflections
+
+Experiences, lessons, and perspectives on leadership, service, and collaboration.
+
+[Explore Leadership Reflections](leadership/index.qmd)
+:::
+
+:::

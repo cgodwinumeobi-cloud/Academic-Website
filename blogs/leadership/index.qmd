@@ -1,0 +1,18 @@
+---
+title: "Leadership Reflections"
+subtitle: "Experiences, lessons, ideas, and perspectives on leadership"
+listing:
+  contents: "posts/*/index.qmd"
+  type: grid
+  grid-columns: 2
+  sort: "date desc"
+  categories: true
+  feed: true
+  page-size: 9
+title-block-banner: true
+toc: false
+---
+
+A space to explore leadership through experiences, lessons learned, and reflections on service, collaboration, and personal development.
+
+New reflections will appear here as they are published.

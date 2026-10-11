@@ -1,0 +1,39 @@
+---
+title: "Events"
+subtitle: "Upcoming activities and past engagements"
+title-block-banner: true
+toc: false
+---
+
+## Upcoming Events {#upcoming-events}
+
+::: {.event-empty}
+**No upcoming events are currently listed.**
+
+Details of confirmed events, including dates, locations, and registration information where applicable, will appear here.
+:::
+
+<!-- Example structure for a confirmed event:
+
+::: {.event-card}
+### Event name
+
+**Date:** Month Day, Year  
+**Location:** Venue or Online
+
+Brief description.
+
+[Event details](https://example.com)
+:::
+
+-->
+
+## Past Events {#past-events}
+
+::: {.event-empty}
+**Past event listings will be added here.**
+
+This section will document completed presentations, workshops, and other relevant events, with links to publicly available materials where appropriate.
+:::
+
+<!-- Add completed events here, newest first. -->

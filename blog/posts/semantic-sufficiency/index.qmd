@@ -1,0 +1,16 @@
+---
+title: "When Does a Survey Item Become Sufficiently Understandable?"
+date: 2026-10-03
+author: "Godwin C. Umeobi"
+categories: ["Survey Methodology", "Research Ideas", "Process Data"]
+description: "A conceptual question about meaning and response timing in spoken survey items."
+published: false
+title-block-banner: true
+toc: false
+---
+
+> **Sample post — replace or revise before publishing.** This is a conceptual reflection, not a report of empirical findings.
+
+In a spoken survey item, the full recording may not always be necessary before a respondent can identify what is being asked. This raises a measurement question: at what point has enough meaning been communicated to support a response?
+
+Possible research approaches include structured human judgments, AI-assisted evaluations, and comparisons with observed response timing. Each approach raises questions about reliability, validity, and generalizability.

@@ -1,0 +1,10 @@
+---
+title: "Speaking Engagements"
+subtitle: "Talks, panels, and workshops"
+title-block-banner: true
+toc: false
+---
+
+I am interested in opportunities to share ideas and engage in discussions related to measurement science, response processes, research methodology, and statistics education.
+
+Potential formats include academic talks, panel discussions, workshops, and educational presentations. Specific topics, formats, and availability can be discussed individually.

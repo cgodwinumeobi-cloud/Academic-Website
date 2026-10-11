@@ -1,0 +1,17 @@
+---
+title: "Professional Activities"
+subtitle: "Research, teaching, and methodological activities"
+title-block-banner: true
+toc: false
+---
+
+My professional interests include research, methodological discussion, statistical and psychometric analysis, survey and assessment design, and teaching and training in research methods.
+
+Areas of interest include:
+
+- Research design and methodological consultation or discussion
+- Statistical analysis and psychometric methods
+- Survey and assessment design
+- Teaching and training in research methods and statistics
+
+*Descriptions here identify areas of interest, not a guarantee of paid services or current availability.*

@@ -1,0 +1,10 @@
+---
+title: "Volunteering"
+subtitle: "Mentoring, outreach, and community service"
+title-block-banner: true
+toc: false
+---
+
+This section will highlight volunteering, mentoring, outreach, and community-oriented activities, including opportunities to contribute research and teaching skills.
+
+*Activities will be listed here as details are available.*

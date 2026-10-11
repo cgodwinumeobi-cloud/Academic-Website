@@ -1,0 +1,22 @@
+---
+title: "What Can Response Time Tell Us About Assessment?"
+date: 2026-10-10
+author: "Godwin C. Umeobi"
+categories: ["Response Latency", "Research Reflections", "Psychometrics"]
+description: "Questions worth asking about timing and response processes."
+published: false
+title-block-banner: true
+toc: false
+---
+
+> **Sample post — replace or revise before publishing.** This is a conceptual reflection, not a report of empirical findings.
+
+Response time provides a window into the processes that occur while people interact with assessment items. Yet timing alone does not establish why someone responded quickly or slowly.
+
+## Questions worth exploring
+
+- When is a fast response evidence of fluency, and when might it reflect insufficient engagement?
+- How does item presentation format influence response timing?
+- Which aspects of response latency are most informative for measurement quality?
+
+A useful research direction is to combine timing with item features and other process indicators rather than interpreting duration in isolation.

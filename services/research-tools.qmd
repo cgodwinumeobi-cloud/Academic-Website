@@ -1,0 +1,10 @@
+---
+title: "Research Tools"
+subtitle: "Methods, workflows, and research resources"
+title-block-banner: true
+toc: false
+---
+
+This section will document research and analytical tools, workflows, and resources relevant to my work. It may also include practical materials that support research design, data analysis, and teaching.
+
+*Specific tools and resources will be added as they are documented.*

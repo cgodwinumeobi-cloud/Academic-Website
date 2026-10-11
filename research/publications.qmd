@@ -1,0 +1,16 @@
+---
+title: "Academic Publications"
+subtitle: "Peer-reviewed publications and manuscripts"
+title-block-banner: true
+toc: false
+---
+
+This section will list peer-reviewed publications and manuscripts, with each entry identified by its actual status.
+
+### Peer-Reviewed Publications
+
+Published work will appear here with full citations, DOIs, and links where available.
+
+### Manuscripts
+
+Manuscripts will be listed with accurate status labels, such as *in preparation*, *submitted*, or *under review*, and with appropriate coauthor approval.

@@ -1,0 +1,49 @@
+---
+title: "Podcast"
+subtitle: "Conversations, ideas, and perspectives"
+title-block-banner: true
+toc: false
+page-layout: full
+---
+
+::: {.podcast-page}
+::: {.podcast-layout}
+::: {.podcast-main}
+## Published Episodes {#published-episodes}
+
+This is the home for published podcast episodes, conversations, and accompanying resources.
+
+::: {.podcast-empty}
+**Episodes coming soon.**
+
+Published episodes will appear here with their titles, release dates, descriptions, and listening or viewing links.
+:::
+
+<!-- Add published episodes above this comment. Suggested format:
+
+::: {.podcast-episode}
+### Episode title
+
+*Published: Month Day, Year*
+
+Short episode summary.
+
+[Listen or watch](https://example.com)
+:::
+
+-->
+:::
+
+::: {.podcast-sidebar}
+## Upcoming Episodes {#upcoming-episodes}
+
+::: {.podcast-upcoming}
+**Coming soon**
+
+Information about planned episodes will be shared here when dates and details are confirmed.
+:::
+
+<!-- Add confirmed upcoming episodes here, including date and topic. -->
+:::
+:::
+:::

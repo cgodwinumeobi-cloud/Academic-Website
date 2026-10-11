@@ -1,0 +1,32 @@
+GODWIN UMEOBI WEBSITE — CONSOLIDATED QUARTO SOURCE
+
+This package merges Units 1–6 into one site folder.
+
+IMPORTANT: This is NOT a verified replacement for every file in your live project.
+The available original site archive contained no actual images, and its index.qmd
+may be older than the homepage you currently use in Positron.
+
+SAFEST INSTALLATION:
+1. Make a full backup copy of your current website folder.
+2. Open this extracted folder and your existing website folder side by side.
+3. Copy all files and subfolders from this package into your existing site,
+   allowing replacements for the files we updated.
+4. BEFORE replacing index.qmd, compare it to your CURRENT working homepage.
+   If your current homepage has the working live date/time and profile design,
+   KEEP YOUR CURRENT index.qmd instead of this packaged older version.
+5. KEEP your existing images/ directory and all its files. This package's
+   images/ folder is empty because the source archive had no photo assets.
+6. KEEP any other personal assets, downloads, custom scripts, and unshared blog
+   posts in your current project. Do not delete the existing site folder.
+7. The older publications.qmd is no longer linked in navigation; research.qmd
+   consolidates its sections. You may archive publications.qmd after review.
+8. Run `quarto preview` or `quarto render` from the website project folder.
+
+This bundle contains the new navigation, combined CSS, Research, Services,
+Teaching, About, Podcast, Events, and three blog landing pages.
+Existing research blog post drafts from the original archive are included.
+New Faith & Lifestyle and Leadership post folders are currently empty.
+
+If you want a truly drop-in, delete-old-and-replace-new package, provide a ZIP
+of your CURRENT entire working site (including index.qmd and images/), so those
+assets can be preserved and the full site can be tested as a whole.

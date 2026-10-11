@@ -1,0 +1,164 @@
+
+---
+title: "Home"
+page-layout: full
+toc: false
+title-block-banner: false
+---
+
+
+::: {.welcome-banner}
+
+::: {.welcome-banner-content}
+
+::: {.welcome-greeting}
+
+# Hello, Welcome!
+
+:::
+
+::: {.welcome-datetime}
+
+<span id="visitor-date"></span>
+
+<span id="visitor-time"></span>
+
+:::
+
+:::
+
+:::
+
+
+::: {.about-section .home-intro}
+
+::: {.about-container}
+
+::: {.about-layout}
+
+::: {.about-photo}
+
+![Godwin C. Umeobi](images/profile.jpg){fig-alt="Professional portrait of Godwin C. Umeobi"}
+
+:::
+
+::: {.about-biography}
+
+## Godwin C. Umeobi
+
+I am a doctoral student in Psychometrics and Graduate Instructor in the Department of Psychology at Morgan State University, Baltimore, Maryland. My academic and professional interests span psychological measurement, quantitative research methods, human behavior, and the application of statistical and psychometric methods to understanding psychological and educational phenomena.
+
+My current research focuses on **process data, response latency, and response behavior in psychological and educational assessments**, particularly in technology-mediated environments. I am interested in understanding not only the responses individuals provide to assessment items but also the underlying processes involved in producing those responses, with implications for measurement validity, data quality, and assessment interpretation.
+
+[Read More About Me →](about.qmd){.read-more-btn}
+
+:::
+
+:::
+
+:::
+
+:::
+
+::: {.home-editorial}
+::: {.home-editorial-inner}
+::: {.home-editorial-heading}
+<div class="home-editorial-kicker">EXPLORE THE LATEST</div>
+## Ideas, Reflections & Conversations
+
+A space for research perspectives, personal reflections, leadership insights, and conversations worth sharing.
+:::
+
+::: {.home-editorial-grid}
+::: {.home-editorial-lead}
+<div class="home-editorial-type">RESEARCH REFLECTIONS</div>
+### Thinking Beyond the Response
+
+Explore questions about how people respond to assessments, what response processes reveal, and why measurement quality matters.
+
+[Explore research reflections →](blog/index.qmd){.home-editorial-link}
+:::
+
+::: {.home-editorial-side}
+::: {.home-editorial-mini}
+<div class="home-editorial-type">FAITH & LIFESTYLE</div>
+### Reflections on Life and Growth
+
+Perspectives on faith, everyday experiences, and personal development.
+
+[Read reflections →](blogs/faith-lifestyle/index.qmd){.home-editorial-link}
+:::
+
+::: {.home-editorial-mini}
+<div class="home-editorial-type">LEADERSHIP</div>
+### Lessons in Leadership
+
+Ideas and experiences around service, mentorship, and leadership.
+
+[Explore leadership →](blogs/leadership/index.qmd){.home-editorial-link}
+:::
+:::
+:::
+
+::: {.home-editorial-podcast}
+::: {.home-editorial-podcast-icon}
+🎙
+:::
+::: {.home-editorial-podcast-copy}
+<div class="home-editorial-type">PODCAST</div>
+### Conversations Coming Soon
+
+A home for upcoming conversations, interviews, and ideas. Published episodes will appear here as they become available.
+:::
+[Visit the podcast →](podcast.qmd){.home-editorial-podcast-link}
+:::
+:::
+:::
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  function updateVisitorDateTime() {
+    const now = new Date();
+
+    const dateElement =
+      document.getElementById("visitor-date");
+
+    const timeElement =
+      document.getElementById("visitor-time");
+
+    if (!dateElement || !timeElement) return;
+
+    const dateOptions = {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    };
+
+    const timeOptions = {
+      hour: "numeric",
+      minute: "2-digit",
+      timeZoneName: "short"
+    };
+
+    dateElement.textContent =
+      new Intl.DateTimeFormat(
+        "en-US",
+        dateOptions
+      ).format(now);
+
+    timeElement.textContent =
+      new Intl.DateTimeFormat(
+        "en-US",
+        timeOptions
+      ).format(now);
+  }
+
+  updateVisitorDateTime();
+
+  setInterval(updateVisitorDateTime, 1000);
+
+});
+</script>

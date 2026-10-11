@@ -1,0 +1,12 @@
+---
+title: "Academic Presentations"
+subtitle: "Conferences, posters, symposia, and submitted proposals"
+title-block-banner: true
+toc: false
+---
+
+This section will list confirmed conference presentations, posters, symposia, and other academic presentations, including event names, dates, authorship, and links to shareable materials when available.
+
+### Submitted Proposals
+
+Submitted proposals that have not yet been accepted may be listed separately and clearly identified as *submitted* rather than *accepted* or *presented*.

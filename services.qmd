@@ -1,0 +1,18 @@
+---
+title: "Services & Collaboration"
+subtitle: "Professional activities, speaking engagements, research tools, volunteering, and collaboration"
+title-block-banner: true
+toc: false
+---
+
+I welcome scholarly conversations and opportunities for collaboration involving psychometrics, assessment process data, research design, and statistical methodology.
+
+## Explore Services & Collaboration
+
+- **[Professional Activities](services/professional-activities.qmd)** — Research design, psychometric methods, statistical analysis, and teaching.
+- **[Speaking Engagements](services/speaking-engagements.qmd)** — Academic talks, workshops, and discussions.
+- **[Research Tools](services/research-tools.qmd)** — Research workflows and resources.
+- **[Volunteering](services/volunteering.qmd)** — Mentoring, outreach, and community activities.
+- **[Collaborations](services/collaborations.qmd)** — Research partnerships and contact information.
+
+**Email:** [cgodwin.umeobi@gmail.com](mailto:cgodwin.umeobi@gmail.com)

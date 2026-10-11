@@ -1,0 +1,338 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "My teaching interests include psychological statistics, research methods, and evidence-based instruction in psychology. I aim to make quantitative reasoning accessible and relevant to students’ academic, professional, and everyday decisions."
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "Teaching Philosophy",
+    "text": "Teaching Philosophy\nI approach teaching as an opportunity to help students develop confidence in asking research questions, evaluating evidence, and interpreting data. In statistics instruction, I emphasize understanding the reasoning behind statistical procedures, choosing methods that fit research questions, and communicating results clearly rather than relying on calculations alone.\nMy instructional interests include active learning, practical demonstrations, and opportunities for students to apply concepts to realistic datasets. I value a learning environment in which students can ask questions, practice skills, and connect statistical thinking to psychological research and real-world situations."
+  },
+  {
+    "objectID": "teaching.html#courses-and-instruction",
+    "href": "teaching.html#courses-and-instruction",
+    "title": "Teaching",
+    "section": "Courses and Instruction",
+    "text": "Courses and Instruction\n\nMorgan State University\n\nPsychological Statistics (PSYC 316) — Fall 2025 and Fall 2026.\nPsychological Statistics (PSYC 317) — Spring 2026.\nGeneral Psychology (PSYC 101) — Spring 2024.\n\nI have also held university teaching appointments at Nnamdi Azikiwe University and Godfrey Okoye University in Nigeria. Additional course details can be added as they are prepared for public display."
+  },
+  {
+    "objectID": "teaching.html#teaching-resources",
+    "href": "teaching.html#teaching-resources",
+    "title": "Teaching",
+    "section": "Teaching Resources",
+    "text": "Teaching Resources\nThis section will feature instructional materials, demonstrations, and tutorials that I have permission to share publicly. Topics may include descriptive statistics, sampling, statistical inference, research design, and practical data analysis.\nPublic teaching resources will be added as they become available."
+  },
+  {
+    "objectID": "teaching.html#teaching-collaboration",
+    "href": "teaching.html#teaching-collaboration",
+    "title": "Teaching",
+    "section": "Teaching and Collaboration",
+    "text": "Teaching and Collaboration\nI welcome scholarly conversations about statistical education, research methods instruction, and approaches to helping students engage meaningfully with data.\nContact me for teaching-related inquiries."
+  },
+  {
+    "objectID": "services/volunteering.html",
+    "href": "services/volunteering.html",
+    "title": "Volunteering",
+    "section": "",
+    "text": "This section will highlight volunteering, mentoring, outreach, and community-oriented activities, including opportunities to contribute research and teaching skills.\nActivities will be listed here as details are available."
+  },
+  {
+    "objectID": "services/research-tools.html",
+    "href": "services/research-tools.html",
+    "title": "Research Tools",
+    "section": "",
+    "text": "This section will document research and analytical tools, workflows, and resources relevant to my work. It may also include practical materials that support research design, data analysis, and teaching.\nSpecific tools and resources will be added as they are documented."
+  },
+  {
+    "objectID": "services/collaborations.html",
+    "href": "services/collaborations.html",
+    "title": "Collaborations",
+    "section": "",
+    "text": "I welcome conversations about possible collaborations in:\n\nPsychometrics and measurement science\nAssessment process data and response latency\nSurvey methodology and assessment design\nStatistical methodology and applied research\nTeaching and training in research methods\n\nIf you are interested in discussing an idea, project, or possible partnership, please reach out by email.\nEmail: cgodwin.umeobi@gmail.com\nProfessional profiles: ORCID · Google Scholar · LinkedIn\nCollaborations and professional activities are subject to availability and applicable institutional or employment requirements."
+  },
+  {
+    "objectID": "research/publications.html",
+    "href": "research/publications.html",
+    "title": "Academic Publications",
+    "section": "",
+    "text": "This section will list peer-reviewed publications and manuscripts, with each entry identified by its actual status.\n\nPeer-Reviewed Publications\nPublished work will appear here with full citations, DOIs, and links where available.\n\n\nManuscripts\nManuscripts will be listed with accurate status labels, such as in preparation, submitted, or under review, and with appropriate coauthor approval."
+  },
+  {
+    "objectID": "research/interests.html",
+    "href": "research/interests.html",
+    "title": "Research Interests",
+    "section": "",
+    "text": "My current work examines three related areas.\n\nResponse Latency in Video-Based Surveys\nFocus: Response latency and item- and respondent-related characteristics in video-based noncognitive surveys.\nResearch questions: How do item length, response format, semantic sufficiency, and respondent characteristics relate to response timing?\nMethods: Process-data analysis, multilevel models, item-level indicators, and exploratory visualizations.\n\n\nSemantic Sufficiency Thresholds\nFocus: Identifying the earliest point in a spoken survey item at which sufficient meaning is available to support a response.\nResearch questions: How consistently do human and AI raters identify sufficient meaning? What implications might this have for identifying premature responses?\nMethods: Rater agreement, threshold ratings, and timing-based indicators.\n\n\nResponse Processes in Digital Assessments\nFocus: Understanding timing and action patterns in computer-administered tasks.\nResearch questions: What can time to first action, total response time, and post-first-action timing reveal about task interaction?\nMethods: Descriptive process analytics and regression modeling."
+  },
+  {
+    "objectID": "research/academic-presentations.html",
+    "href": "research/academic-presentations.html",
+    "title": "Academic Presentations",
+    "section": "",
+    "text": "This section will list confirmed conference presentations, posters, symposia, and other academic presentations, including event names, dates, authorship, and links to shareable materials when available.\n\nSubmitted Proposals\nSubmitted proposals that have not yet been accepted may be listed separately and clearly identified as submitted rather than accepted or presented."
+  },
+  {
+    "objectID": "README-SEPARATE-PAGES.html",
+    "href": "README-SEPARATE-PAGES.html",
+    "title": "Separate-page navigation update",
+    "section": "",
+    "text": "Separate-page navigation update\nThis package preserves the existing website files and replaces the Research and Services dropdown anchors with separate Quarto pages.\nResearch dropdown: research.qmd (overview), research/interests.qmd, research/publications.qmd, research/academic-presentations.qmd, research/funding.qmd, research/other-presentations.qmd. Services dropdown: services.qmd (overview), services/professional-activities.qmd, services/speaking-engagements.qmd, services/research-tools.qmd, services/volunteering.qmd, services/collaborations.qmd. Blogs & Reflections stays as separate pages. Podcast, Events, Teaching, and About Me stay as they were.\nINSTALLATION: Back up your current site first. Extract the archive and copy its contents into your current project folder. Keep your CURRENT working index.qmd and images/ directory if those are newer than the files in this package. Do not delete any existing blog posts or media. Run quarto preview from the project root. Quarto has not been run on this package here."
+  },
+  {
+    "objectID": "podcast.html",
+    "href": "podcast.html",
+    "title": "Podcast",
+    "section": "",
+    "text": "This is the home for published podcast episodes, conversations, and accompanying resources.\n\nEpisodes coming soon.\nPublished episodes will appear here with their titles, release dates, descriptions, and listening or viewing links.\n\n\n\n\n\n\nComing soon\nInformation about planned episodes will be shared here when dates and details are confirmed."
+  },
+  {
+    "objectID": "podcast.html#published-episodes",
+    "href": "podcast.html#published-episodes",
+    "title": "Podcast",
+    "section": "",
+    "text": "This is the home for published podcast episodes, conversations, and accompanying resources.\n\nEpisodes coming soon.\nPublished episodes will appear here with their titles, release dates, descriptions, and listening or viewing links."
+  },
+  {
+    "objectID": "podcast.html#upcoming-episodes",
+    "href": "podcast.html#upcoming-episodes",
+    "title": "Podcast",
+    "section": "",
+    "text": "Coming soon\nInformation about planned episodes will be shared here when dates and details are confirmed."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "No upcoming events are currently listed.\nDetails of confirmed events, including dates, locations, and registration information where applicable, will appear here."
+  },
+  {
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events",
+    "section": "",
+    "text": "No upcoming events are currently listed.\nDetails of confirmed events, including dates, locations, and registration information where applicable, will appear here."
+  },
+  {
+    "objectID": "events.html#past-events",
+    "href": "events.html#past-events",
+    "title": "Events",
+    "section": "Past Events",
+    "text": "Past Events\n\nPast event listings will be added here.\nThis section will document completed presentations, workshops, and other relevant events, with links to publicly available materials where appropriate."
+  },
+  {
+    "objectID": "blogs/index.html",
+    "href": "blogs/index.html",
+    "title": "Blogs & Reflections",
+    "section": "",
+    "text": "Explore three spaces for writing and reflection.\n\n\nResearch Reflections\nResearch questions, methodological ideas, literature discussions, and reflections on measurement science.\nExplore Research Reflections\n\n\nFaith & Lifestyle\nReflections on faith, personal growth, life experiences, and everyday living.\nExplore Faith & Lifestyle\n\n\nLeadership Reflections\nExperiences, lessons, and perspectives on leadership, service, and collaboration.\nExplore Leadership Reflections"
+  },
+  {
+    "objectID": "blog/posts/semantic-sufficiency/index.html",
+    "href": "blog/posts/semantic-sufficiency/index.html",
+    "title": "When Does a Survey Item Become Sufficiently Understandable?",
+    "section": "",
+    "text": "Sample post — replace or revise before publishing. This is a conceptual reflection, not a report of empirical findings.\n\nIn a spoken survey item, the full recording may not always be necessary before a respondent can identify what is being asked. This raises a measurement question: at what point has enough meaning been communicated to support a response?\nPossible research approaches include structured human judgments, AI-assisted evaluations, and comparisons with observed response timing. Each approach raises questions about reliability, validity, and generalizability."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Research Reflections",
+    "section": "",
+    "text": "This is my public research notebook: a place to reflect on research questions, engage with the literature, discuss methodological approaches, and develop ideas worth exploring.\nPosts represent scholarly commentary unless explicitly identified as formal peer-reviewed research. Exploratory claims should be interpreted with their stated limitations.\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Can Response Time Tell Us About Assessment?\n\n\n\nResponse Latency\n\nResearch Reflections\n\nPsychometrics\n\n\n\nQuestions worth asking about timing and response processes.\n\n\n\nGodwin C. Umeobi\n\n\nOct 10, 2026\n\n\n\n\n\n\n\n\n\n\n\nWhen Does a Survey Item Become Sufficiently Understandable?\n\n\n\nSurvey Methodology\n\nResearch Ideas\n\nProcess Data\n\n\n\nA conceptual question about meaning and response timing in spoken survey items.\n\n\n\nGodwin C. Umeobi\n\n\nOct 3, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#academic-background",
+    "href": "about.html#academic-background",
+    "title": "About Me",
+    "section": "Academic Background",
+    "text": "Academic Background\nI am Godwin Chinemerem UMEOBI, a doctoral student in Psychometrics and Graduate Instructor in the Department of Psychology at Morgan State University, Baltimore, Maryland. My academic and professional interests span psychological measurement, quantitative research methods, human behavior, and the application of statistical and psychometric methods to understanding psychological and educational phenomena."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About Me",
+    "section": "Research Interests",
+    "text": "Research Interests\nMy current research focuses on process data, response latency, and response behavior in psychological and educational assessments, particularly in technology-mediated assessment environments. I am interested in understanding not only the responses individuals provide to assessment items but also the underlying processes involved in producing those responses. My work explores how item characteristics, response formats, respondent attributes, and assessment delivery conditions influence response behavior, with implications for measurement validity, data quality, and the interpretation of assessment outcomes.\nA central area of my research involves video-based surveys and the use of response-time data to investigate how respondents interact with assessment items. I am particularly interested in the cognitive and behavioral processes associated with item comprehension, response formulation, response selection, and non-effortful responding. Through this work, I seek to contribute to the development of more valid, reliable, and responsive measurement practices across psychological, educational, and other digital assessment settings.\nMy broader research background includes adolescent mental health, adverse childhood experiences, antisocial behavior, psychological resilience, social support, and psychological scale development and validation. These interests reflect my commitment to understanding human behavior through rigorous research while addressing issues with practical implications for individuals, communities, and society."
+  },
+  {
+    "objectID": "about.html#teaching-and-professional-experience",
+    "href": "about.html#teaching-and-professional-experience",
+    "title": "About Me",
+    "section": "Teaching and Professional Experience",
+    "text": "Teaching and Professional Experience\nBeyond research, I have extensive experience in university teaching, academic mentorship, and student development across institutions in Nigeria and the United States. Before joining Morgan State University, I held academic positions at Nnamdi Azikiwe University and Godfrey Okoye University in Nigeria. At Morgan State University, I have taught General Psychology and Psychological Statistics, with a particular interest in making statistical reasoning, research methods, and data analysis accessible and applicable to students’ academic and professional development.\nMy professional experience also includes research appointments at Morgan State University and participation in research projects involving educational assessment, student retention, and institutional analysis. I have contributed to scholarly publications and conference presentations and serve as a peer reviewer for academic journals. I am also actively involved in professional organizations, including the American Psychological Association, the Psychometric Society, the Psychonomic Society, and the National Council on Measurement in Education."
+  },
+  {
+    "objectID": "about.html#leadership-service-and-mentorship",
+    "href": "about.html#leadership-service-and-mentorship",
+    "title": "About Me",
+    "section": "Leadership, Service, and Mentorship",
+    "text": "Leadership, Service, and Mentorship\nService, leadership, and mentorship are important parts of my academic journey. I have served as President of the Morgan State University Graduate Students Association, an APA Campus Ambassador, and a mentor through the NextGen Psych Scholars Program. I also contribute to professional service through academic review activities and committee membership, including the Society for the Psychological Study of Social Issues’ Innovative Teaching Award Selection Committee."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nI hold a Master of Science in Forensic Psychology from Godfrey Okoye University and a Bachelor of Science with Honors in Psychology from Nnamdi Azikiwe University, Nigeria. My academic training and professional experiences continue to shape an interdisciplinary approach to research that connects psychological theory, measurement science, statistical analysis, and real-world applications."
+  },
+  {
+    "objectID": "about.html#academic-and-professional-goals",
+    "href": "about.html#academic-and-professional-goals",
+    "title": "About Me",
+    "section": "Academic and Professional Goals",
+    "text": "Academic and Professional Goals\nMy overarching goal is to advance the understanding of human behavior through rigorous measurement and research, contribute to improvements in assessment practices and data quality, and support the development of future scholars through teaching, mentorship, and collaborative research."
+  },
+  {
+    "objectID": "blog/posts/response-latency/index.html",
+    "href": "blog/posts/response-latency/index.html",
+    "title": "What Can Response Time Tell Us About Assessment?",
+    "section": "",
+    "text": "Sample post — replace or revise before publishing. This is a conceptual reflection, not a report of empirical findings.\nResponse time provides a window into the processes that occur while people interact with assessment items. Yet timing alone does not establish why someone responded quickly or slowly."
+  },
+  {
+    "objectID": "blog/posts/response-latency/index.html#questions-worth-exploring",
+    "href": "blog/posts/response-latency/index.html#questions-worth-exploring",
+    "title": "What Can Response Time Tell Us About Assessment?",
+    "section": "Questions worth exploring",
+    "text": "Questions worth exploring\n\nWhen is a fast response evidence of fluency, and when might it reflect insufficient engagement?\nHow does item presentation format influence response timing?\nWhich aspects of response latency are most informative for measurement quality?\n\nA useful research direction is to combine timing with item features and other process indicators rather than interpreting duration in isolation."
+  },
+  {
+    "objectID": "blogs/faith-lifestyle/index.html",
+    "href": "blogs/faith-lifestyle/index.html",
+    "title": "Faith & Lifestyle",
+    "section": "",
+    "text": "A space for reflections on faith, life experiences, values, personal growth, and everyday living.\nNew reflections will appear here as they are published.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blogs/leadership/index.html",
+    "href": "blogs/leadership/index.html",
+    "title": "Leadership Reflections",
+    "section": "",
+    "text": "A space to explore leadership through experiences, lessons learned, and reflections on service, collaboration, and personal development.\nNew reflections will appear here as they are published.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
+    "section": "About Me",
+    "text": "About Me\nI am Godwin Chinemerem Umeobi, a doctoral student in Psychometrics and Graduate Instructor in the Department of Psychology at Morgan State University. My research focuses on process data, response latency, survey responding behavior, and measurement quality in psychological and educational assessments.\nI am interested in understanding the processes behind the responses people give, and in applying measurement science to improve the interpretation and quality of assessment data.\nRead More About Me"
+  },
+  {
+    "objectID": "index.html#from-blogs-reflections-podcast",
+    "href": "index.html#from-blogs-reflections-podcast",
+    "title": "Home",
+    "section": "From Blogs, Reflections & Podcast",
+    "text": "From Blogs, Reflections & Podcast\nExplore recent writing, ideas, and conversations. This section displays up to four randomly selected published items each time the page loads.\n\n\nLoading featured content…\n\n\n\nResearch Reflections · Faith & Lifestyle · Leadership Reflections · Podcast"
+  },
+  {
+    "objectID": "index.html#connect-collaborate",
+    "href": "index.html#connect-collaborate",
+    "title": "Home",
+    "section": "Connect & Collaborate",
+    "text": "Connect & Collaborate\nI welcome conversations about psychometrics, assessment process data, research methods, teaching, and scholarly collaboration.\nExplore My Research · Get in Touch"
+  },
+  {
+    "objectID": "README-HOMEPAGE.html",
+    "href": "README-HOMEPAGE.html",
+    "title": "Homepage updates",
+    "section": "",
+    "text": "Homepage updates\n\nThe homepage now includes a navy welcome banner with live visitor-local date/time, About Me portrait and summary, a 2-column highlights grid, and collaboration links.\nImportant: The original current working index.qmd was not provided; this homepage is reconstructed from the agreed layout, so back up your existing index.qmd and compare before replacing.\nThe package does NOT contain your real photographs. Preserve your existing images/ folder, especially images/profile.jpg.\nFeatured items are chosen randomly from published blog posts and podcast episodes. The two bundled sample research posts are marked published: false and do not appear as genuine publications.\nTo publish an item, set published: true in its YAML header, include title, date, and description; place it under blog/posts/&lt;slug&gt;/index.qmd, blogs/faith-lifestyle/posts/&lt;slug&gt;/index.qmd, blogs/leadership/posts/&lt;slug&gt;/index.qmd, or podcast/episodes/&lt;slug&gt;/index.qmd.\nRun python update-homepage-feed.py from the project folder before quarto render or quarto preview. The script refreshes homepage-highlights.js; browser JavaScript randomly selects up to 4 entries each page load.\nAvoid deleting your existing posts or images when copying this package."
+  },
+  {
+    "objectID": "README-UNIFORM-BANNERS.html",
+    "href": "README-UNIFORM-BANNERS.html",
+    "title": "Uniform site-wide page banners",
+    "section": "",
+    "text": "All page titles use the same navy-to-blue gradient (#101f35 to #254b68), a 150px minimum banner height, and centered titles/subtitles. The About Me custom banner is centered. The homepage welcome banner keeps its left greeting and right clock, with mobile stacking.\n\n\nBack up your existing project. Extract this folder and copy its contents into your project, preserving your latest working index.qmd and images/ folder. The bundled index.qmd is an older homepage and may not contain your current live clock. Do not delete your old project before checking.\nPreview with quarto preview. The actual photographs are not included in this archive."
+  },
+  {
+    "objectID": "README-UNIFORM-BANNERS.html#installation",
+    "href": "README-UNIFORM-BANNERS.html#installation",
+    "title": "Uniform site-wide page banners",
+    "section": "",
+    "text": "Back up your existing project. Extract this folder and copy its contents into your project, preserving your latest working index.qmd and images/ folder. The bundled index.qmd is an older homepage and may not contain your current live clock. Do not delete your old project before checking.\nPreview with quarto preview. The actual photographs are not included in this archive."
+  },
+  {
+    "objectID": "research/funding.html",
+    "href": "research/funding.html",
+    "title": "Research Funding",
+    "section": "",
+    "text": "Information about research grants, fellowships, funding awards, and funded projects will be added here as applicable. No funding award is claimed on this page at present."
+  },
+  {
+    "objectID": "research/other-presentations.html",
+    "href": "research/other-presentations.html",
+    "title": "Other Presentations",
+    "section": "",
+    "text": "This section will feature professional workshops, invited talks, and other presentations that do not fall under academic conference presentations."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on process data, response latency, survey responding behavior, and measurement quality. I am particularly interested in what response timing and other interaction indicators can reveal about how people engage with survey items and digital assessments.\nExplore my research through the pages below."
+  },
+  {
+    "objectID": "research.html#research-areas",
+    "href": "research.html#research-areas",
+    "title": "Research",
+    "section": "Research Areas",
+    "text": "Research Areas\n\nResearch Interests — Response latency in video-based surveys, semantic sufficiency thresholds, and response processes in digital assessments.\nAcademic Publications — Peer-reviewed publications and manuscripts, identified by their actual status.\nAcademic Presentations — Conference presentations, posters, symposia, and submitted proposals.\nResearch Funding — Research grants, fellowships, and other funding information.\nOther Presentations — Workshops, invited talks, and professional presentations."
+  },
+  {
+    "objectID": "research.html#research-collaborations",
+    "href": "research.html#research-collaborations",
+    "title": "Research",
+    "section": "Research Collaborations",
+    "text": "Research Collaborations\nI welcome opportunities for collaboration in psychometrics, assessment, and survey methodology.\nInterested in these topics? Contact me."
+  },
+  {
+    "objectID": "services/professional-activities.html",
+    "href": "services/professional-activities.html",
+    "title": "Professional Activities",
+    "section": "",
+    "text": "My professional interests include research, methodological discussion, statistical and psychometric analysis, survey and assessment design, and teaching and training in research methods.\nAreas of interest include:\n\nResearch design and methodological consultation or discussion\nStatistical analysis and psychometric methods\nSurvey and assessment design\nTeaching and training in research methods and statistics\n\nDescriptions here identify areas of interest, not a guarantee of paid services or current availability."
+  },
+  {
+    "objectID": "services/speaking-engagements.html",
+    "href": "services/speaking-engagements.html",
+    "title": "Speaking Engagements",
+    "section": "",
+    "text": "I am interested in opportunities to share ideas and engage in discussions related to measurement science, response processes, research methodology, and statistics education.\nPotential formats include academic talks, panel discussions, workshops, and educational presentations. Specific topics, formats, and availability can be discussed individually."
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Services & Collaboration",
+    "section": "",
+    "text": "I welcome scholarly conversations and opportunities for collaboration involving psychometrics, assessment process data, research design, and statistical methodology."
+  },
+  {
+    "objectID": "services.html#explore-services-collaboration",
+    "href": "services.html#explore-services-collaboration",
+    "title": "Services & Collaboration",
+    "section": "Explore Services & Collaboration",
+    "text": "Explore Services & Collaboration\n\nProfessional Activities — Research design, psychometric methods, statistical analysis, and teaching.\nSpeaking Engagements — Academic talks, workshops, and discussions.\nResearch Tools — Research workflows and resources.\nVolunteering — Mentoring, outreach, and community activities.\nCollaborations — Research partnerships and contact information.\n\nEmail: cgodwin.umeobi@gmail.com"
+  },
+  {
+    "objectID": "index.html#godwin-c.-umeobi",
+    "href": "index.html#godwin-c.-umeobi",
+    "title": "Home",
+    "section": "Godwin C. Umeobi",
+    "text": "Godwin C. Umeobi\nI am a doctoral student in Psychometrics and Graduate Instructor in the Department of Psychology at Morgan State University, Baltimore, Maryland. My academic and professional interests span psychological measurement, quantitative research methods, human behavior, and the application of statistical and psychometric methods to understanding psychological and educational phenomena.\nMy current research focuses on process data, response latency, and response behavior in psychological and educational assessments, particularly in technology-mediated environments. I am interested in understanding not only the responses individuals provide to assessment items but also the underlying processes involved in producing those responses, with implications for measurement validity, data quality, and assessment interpretation.\nRead More About Me →"
+  },
+  {
+    "objectID": "index.html#ideas-reflections-conversations",
+    "href": "index.html#ideas-reflections-conversations",
+    "title": "Home",
+    "section": "Ideas, Reflections & Conversations",
+    "text": "Ideas, Reflections & Conversations\nA space for research perspectives, personal reflections, leadership insights, and conversations worth sharing."
+  }
+]

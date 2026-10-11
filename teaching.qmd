@@ -1,0 +1,36 @@
+---
+title: "Teaching"
+subtitle: "Psychological statistics, research methods, and evidence-based instruction"
+title-block-banner: true
+toc: false
+---
+
+My teaching interests include psychological statistics, research methods, and evidence-based instruction in psychology. I aim to make quantitative reasoning accessible and relevant to students' academic, professional, and everyday decisions.
+
+## Teaching Philosophy {#teaching-philosophy}
+
+I approach teaching as an opportunity to help students develop confidence in asking research questions, evaluating evidence, and interpreting data. In statistics instruction, I emphasize understanding the reasoning behind statistical procedures, choosing methods that fit research questions, and communicating results clearly rather than relying on calculations alone.
+
+My instructional interests include active learning, practical demonstrations, and opportunities for students to apply concepts to realistic datasets. I value a learning environment in which students can ask questions, practice skills, and connect statistical thinking to psychological research and real-world situations.
+
+## Courses and Instruction {#courses-and-instruction}
+
+### Morgan State University
+
+- **Psychological Statistics (PSYC 316)** — Fall 2025 and Fall 2026.
+- **Psychological Statistics (PSYC 317)** — Spring 2026.
+- **General Psychology (PSYC 101)** — Spring 2024.
+
+I have also held university teaching appointments at Nnamdi Azikiwe University and Godfrey Okoye University in Nigeria. Additional course details can be added as they are prepared for public display.
+
+## Teaching Resources {#teaching-resources}
+
+This section will feature instructional materials, demonstrations, and tutorials that I have permission to share publicly. Topics may include descriptive statistics, sampling, statistical inference, research design, and practical data analysis.
+
+*Public teaching resources will be added as they become available.*
+
+## Teaching and Collaboration {#teaching-collaboration}
+
+I welcome scholarly conversations about statistical education, research methods instruction, and approaches to helping students engage meaningfully with data.
+
+[Contact me](mailto:cgodwin.umeobi@gmail.com) for teaching-related inquiries.

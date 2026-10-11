@@ -1,0 +1,18 @@
+---
+title: "Faith & Lifestyle"
+subtitle: "Reflections on faith, personal growth, and everyday life"
+listing:
+  contents: "posts/*/index.qmd"
+  type: grid
+  grid-columns: 2
+  sort: "date desc"
+  categories: true
+  feed: true
+  page-size: 9
+title-block-banner: true
+toc: false
+---
+
+A space for reflections on faith, life experiences, values, personal growth, and everyday living.
+
+New reflections will appear here as they are published.

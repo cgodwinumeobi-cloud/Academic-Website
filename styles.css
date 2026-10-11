@@ -1184,47 +1184,63 @@ body:not(:has(.welcome-banner)) #quarto-margin-sidebar {
 @media (prefers-reduced-motion: reduce) { .home-editorial * { scroll-behavior: auto; } }
 
 
-/* Mobile navigation improvements */
+/* ==================================================
+   MOBILE NAVIGATION — HORIZONTAL SOCIAL ICONS
+   ================================================== */
+
 @media (max-width: 1199.98px) {
 
-  /* Reduce excessive menu spacing */
-  .navbar-collapse .navbar-nav .nav-link {
-    padding-top: 0.55rem;
-    padding-bottom: 0.55rem;
+  /* Keep the main navigation compact */
+  #quarto-header .navbar-collapse .navbar-nav:not(.navbar-nav-scroll) {
+    margin-bottom: 0.25rem;
   }
 
-  /* Social and academic icons in one row */
-  .navbar-collapse .navbar-nav.navbar-nav-scroll {
-    max-height: none;
+  #quarto-header .navbar-collapse .nav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
-  .navbar-collapse .navbar-nav.ms-auto {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0.4rem;
-    margin-top: 0.75rem;
-    padding-top: 0.75rem;
-    border-top: 1px solid rgba(255,255,255,0.2);
+  /* Target Quarto's right-hand navigation group */
+  #quarto-header .navbar-collapse .navbar-nav.ms-auto,
+  #quarto-header .navbar-collapse .navbar-nav.navbar-nav-scroll.ms-auto {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    width: 100%;
+    margin: 0.5rem 0 0 !important;
+    padding: 0.75rem 0 0 !important;
+    border-top: 1px solid rgba(255,255,255,0.18);
   }
 
-  .navbar-collapse .navbar-nav.ms-auto .nav-item {
-    margin: 0;
+  #quarto-header .navbar-collapse .navbar-nav.ms-auto > .nav-item {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
-  .navbar-collapse .navbar-nav.ms-auto .nav-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  #quarto-header .navbar-collapse .navbar-nav.ms-auto > .nav-item > .nav-link {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     width: 44px;
     height: 44px;
-    padding: 0;
+    padding: 0 !important;
   }
 
-  .navbar-collapse .navbar-nav.ms-auto .nav-link i,
-  .navbar-collapse .navbar-nav.ms-auto .nav-link svg {
-    vertical-align: middle;
+  /* Normalize icon alignment */
+  #quarto-header .navbar-collapse .navbar-nav.ms-auto .nav-link i,
+  #quarto-header .navbar-collapse .navbar-nav.ms-auto .nav-link svg,
+  #quarto-header .navbar-collapse .navbar-nav.ms-auto .nav-link img {
+    vertical-align: middle !important;
+  }
+
+  #quarto-header .navbar-collapse .navbar-nav.ms-auto .nav-link img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
   }
 }

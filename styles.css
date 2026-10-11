@@ -1,1253 +1,2439 @@
 
 
+
+
 /* ============================================
+
+
 
    GODWIN C. UMEOBI
 
+
+
    ACADEMIC WEBSITE - COMPLETE STYLESHEET
 
-============================================ */
+
+
+\============================================ */
+
+
 
 /* 1. GLOBAL COLORS AND TYPOGRAPHY */
 
+
+
 :root {
+
+
 
   --navy: #101f35;
 
+
+
   --teal: #087f78;
+
+
 
   --ink: #203049;
 
+
+
   --muted: #5f7186;
+
+
 
   --pale: #eef3f8;
 
+
+
   --white: #ffffff;
 
+
+
 }
+
+
 
 body {
 
+
+
   color: var(--ink);
+
+
 
   font-family: system-ui, -apple-system,
 
+
+
     "Segoe UI", sans-serif;
+
+
 
   background: var(--pale);
 
+
+
 }
+
+
 
 a {
 
+
+
   color: var(--teal);
 
+
+
 }
+
+
 
 a:hover {
 
+
+
   color: #065e59;
 
+
+
 }
+
+
 
 /* 2. NAVIGATION BAR */
 
+
+
 .navbar {
 
+
+
   background: var(--navy) !important;
+
+
 
   box-shadow: 0 2px 12px rgba(16,31,53,.12);
 
+
+
 }
+
+
 
 .navbar-brand {
 
+
+
   font-weight: 750;
+
+
 
   letter-spacing: -.02em;
 
+
+
 }
+
+
 
 .navbar .nav-link {
 
+
+
   font-size: .95rem;
 
+
+
 }
+
+
 
 /* 3. QUARTO PAGE LAYOUT */
 
+
+
 /* Hide automatic page titles where custom
+
+
 
    welcome banners are present */
 
+
+
 body:has(.welcome-banner) #title-block-header {
+
+
 
   display: none;
 
+
+
 }
+
+
 
 /* Remove spacing above custom banners */
 
+
+
 body:has(.welcome-banner) #quarto-content,
+
+
 
 body:has(.welcome-banner) #quarto-document-content {
 
+
+
   padding-top: 0;
 
+
+
 }
+
+
 
 body:has(.welcome-banner) main.content {
 
+
+
   margin-top: 0;
+
+
 
   padding-top: 0;
 
+
+
 }
+
+
 
 /* 4. WELCOME BANNER */
 
+
+
 .welcome-banner {
+
+
 
   width: 100vw;
 
+
+
   margin-left: calc(50% - 50vw);
+
+
 
   box-sizing: border-box;
 
+
+
   background: linear-gradient(
+
+
 
     115deg,
 
+
+
     #101f35,
+
+
 
     #254b68
 
+
+
   );
+
+
 
   color: white;
 
+
+
   text-align: center;
+
+
 
   padding: 32px 20px;
 
+
+
 }
 
+
+
 .welcome-banner h1 {
+
+
 
   color: white;
 
+
+
   font-size: clamp(1.9rem, 3vw, 2.5rem);
+
+
 
   font-weight: 750;
 
+
+
   margin: 0;
+
+
 
   border: none;
 
+
+
   animation: fadeDown .8s ease-out both;
 
+
+
 }
+
+
 
 .welcome-banner p {
 
+
+
   color: #c5e5e4;
 
+
+
   font-size: 1rem;
+
+
 
   letter-spacing: .09em;
 
+
+
   margin: 0;
 
+
+
 }
+
+
 
 /* 5. GENERAL ABOUT SECTION */
 
+
+
 .about-section {
+
+
 
   width: 100vw;
 
+
+
   margin-left: calc(50% - 50vw);
 
+
+
   box-sizing: border-box;
+
+
 
   background: linear-gradient(
 
+
+
     135deg,
+
+
 
     #f3f7fb,
 
+
+
     #e7eff6
+
+
 
   );
 
+
+
   padding: 65px 0 80px;
 
+
+
 }
+
+
 
 .about-container {
 
+
+
   width: 100%;
+
+
 
   max-width: 1450px;
 
+
+
   margin: 0 auto;
+
+
 
   padding: 0 5%;
 
+
+
   box-sizing: border-box;
 
+
+
 }
+
+
 
 /* 6. TWO-COLUMN LAYOUT */
 
+
+
 .about-layout {
+
+
 
   display: grid;
 
+
+
   grid-template-columns:
+
+
 
     minmax(260px, 350px)
 
+
+
     minmax(0, 1fr);
 
+
+
   align-items: center;
+
+
 
   gap: clamp(40px, 5vw, 90px);
 
+
+
 }
+
+
 
 /* 7. PHOTOGRAPHS */
 
+
+
 .about-photo {
+
+
 
   position: relative;
 
+
+
   width: 100%;
 
+
+
   max-width: 350px;
+
+
 
   animation: portraitEntrance 1s ease-out both;
 
+
+
 }
+
+
 
 .about-photo p,
 
+
+
 .about-photo figure {
+
+
 
   margin: 0;
 
+
+
 }
+
+
 
 .about-photo img {
 
+
+
   display: block;
+
+
 
   width: 100%;
 
+
+
   height: auto;
+
+
 
   border-radius: 10px;
 
+
+
   box-shadow:
+
+
 
     0 18px 40px rgba(16,31,53,.20);
 
+
+
   transition:
+
+
 
     transform .45s ease,
 
+
+
     box-shadow .45s ease;
 
+
+
 }
+
+
 
 .about-photo:hover img {
 
+
+
   transform: scale(1.035);
 
+
+
   box-shadow:
+
+
 
     0 25px 55px rgba(16,31,53,.28);
 
+
+
 }
+
+
 
 /* 8. BIOGRAPHY TYPOGRAPHY */
 
+
+
 .about-biography {
+
+
 
   max-width: 850px;
 
+
+
   font-size: 1.12rem;
 
+
+
   line-height: 1.8;
+
+
 
   animation: fadeUp 1s ease-out both;
 
+
+
 }
+
+
 
 .about-biography h2 {
 
+
+
   color: var(--navy);
+
+
 
   font-size: 2rem;
 
+
+
   font-weight: 700;
+
+
 
   margin: 0 0 24px;
 
+
+
   padding-bottom: 12px;
+
+
 
   border-bottom: 2px solid #d4e0eb;
 
+
+
 }
+
+
 
 .about-biography p {
 
+
+
   margin-bottom: 1.2rem;
+
+
 
 }
 
+
+
 /* ============================================
+
+
 
    9. HOMEPAGE: SHORT BIOGRAPHY
 
-============================================ */
+
+
+\============================================ */
+
+
 
 .home-intro .about-layout {
 
+
+
   align-items: center;
 
+
+
 }
+
+
 
 .home-intro .about-biography {
 
+
+
   font-size: 1.15rem;
+
+
 
   line-height: 1.8;
 
+
+
 }
+
+
 
 /* Subtle portrait reflection on homepage only */
 
+
+
 .home-intro .about-photo img {
+
+
 
   -webkit-box-reflect: below 7px
 
+
+
     linear-gradient(
+
+
 
       to bottom,
 
+
+
       transparent 65%,
+
+
 
       rgba(0,0,0,.10)
 
+
+
     );
 
+
+
 }
+
+
 
 /* READ MORE ABOUT ME BUTTON */
 
+
+
 .read-more-btn {
 
+
+
   display: inline-block;
+
+
 
   margin-top: 15px;
 
+
+
   padding: 12px 22px;
+
+
 
   background: var(--teal);
 
+
+
   color: white !important;
+
+
 
   font-size: 1rem;
 
+
+
   font-weight: 650;
+
+
 
   border-radius: 7px;
 
+
+
   text-decoration: none !important;
 
+
+
   transition:
+
+
 
     background .25s ease,
 
+
+
     transform .25s ease,
+
+
 
     box-shadow .25s ease;
 
+
+
 }
+
+
 
 .read-more-btn:hover {
 
+
+
   background: #065e59;
+
+
 
   transform: translateY(-2px);
 
+
+
   box-shadow: 0 7px 18px rgba(8,127,120,.20);
 
+
+
 }
+
+
 
 .read-more-btn:focus-visible {
 
+
+
   outline: 3px solid var(--navy);
+
+
 
   outline-offset: 3px;
 
+
+
 }
 
+
+
 /* ============================================
+
+
 
    10. FULL ABOUT ME: MULTIPLE PHOTOGRAPHS
 
-============================================ */
+
+
+\============================================ */
+
+
 
 /* Applies to about.qmd sections marked
 
+
+
    {.about-section .about-full} */
+
+
 
 .about-full {
 
+
+
   min-height: 0;
+
+
 
   padding-top: 55px;
 
+
+
   padding-bottom: 65px;
 
+
+
 }
+
+
 
 /* Alternating background */
 
+
+
 .about-full.about-section-alt {
+
+
 
   background: #e2ebf3;
 
+
+
 }
+
+
 
 /* Align photos with the start of each section */
 
+
+
 .about-full .about-layout {
+
+
 
   align-items: start;
 
+
+
 }
+
+
 
 /* Full biography typography */
 
+
+
 .about-full .about-biography {
+
+
 
   font-size: 1.15rem;
 
+
+
   line-height: 1.8;
 
+
+
 }
+
+
 
 /* Spacing between headings */
 
+
+
 .about-full .about-biography h2:not(:first-child) {
+
+
 
   margin-top: 2.2rem;
 
+
+
 }
+
+
 
 /* Full About Me photos */
 
+
+
 .about-full .about-photo {
+
+
 
   max-width: 350px;
 
+
+
 }
+
+
 
 .about-full .about-photo img {
 
+
+
   width: 100%;
+
+
 
   height: auto;
 
+
+
   border-radius: 10px;
+
+
 
   box-shadow: 0 15px 35px rgba(16,31,53,.15);
 
+
+
   /* No mirror reflection on long biography */
+
+
 
   -webkit-box-reflect: unset;
 
+
+
 }
 
+
+
 /* ============================================
+
+
 
    11. ANIMATIONS
 
-============================================ */
+
+
+\============================================ */
+
+
 
 @keyframes portraitEntrance {
 
+
+
   from {
 
+
+
     opacity: 0;
+
+
 
     transform: translateY(28px);
 
+
+
   }
+
+
 
   to {
 
+
+
     opacity: 1;
+
+
 
     transform: translateY(0);
 
+
+
   }
 
+
+
 }
+
+
 
 @keyframes fadeUp {
 
+
+
   from {
 
+
+
     opacity: 0;
+
+
 
     transform: translateY(18px);
 
+
+
   }
+
+
 
   to {
 
+
+
     opacity: 1;
+
+
 
     transform: translateY(0);
 
+
+
   }
 
+
+
 }
+
+
 
 @keyframes fadeDown {
 
+
+
   from {
+
+
 
     opacity: 0;
 
+
+
     transform: translateY(-15px);
 
+
+
   }
+
+
 
   to {
 
+
+
     opacity: 1;
+
+
 
     transform: translateY(0);
 
+
+
   }
+
+
 
 }
 
+
+
 /* ============================================
+
+
 
    12. RESEARCH AND PORTFOLIO
 
-============================================ */
+
+
+\============================================ */
+
+
 
 .section-intro {
 
+
+
   max-width: 770px;
 
+
+
   color: var(--muted);
+
+
 
   font-size: 1.07rem;
 
+
+
 }
+
+
 
 .project-grid {
 
+
+
   display: grid;
+
+
 
   grid-template-columns:
 
+
+
     repeat(auto-fit, minmax(240px, 1fr));
+
+
 
   gap: 1.2rem;
 
+
+
   margin: 1.5rem 0 2.5rem;
 
+
+
 }
+
+
 
 .project-card {
 
+
+
   border: 1px solid #e0e7ef;
+
+
 
   border-radius: 14px;
 
+
+
   padding: 1.5rem;
+
+
 
   background: white;
 
+
+
   box-shadow:
+
+
 
     0 5px 18px rgba(16,31,53,.04);
 
+
+
   transition:
+
+
 
     transform .2s ease,
 
+
+
     box-shadow .2s ease;
 
+
+
 }
+
+
 
 .project-card:hover {
 
+
+
   transform: translateY(-3px);
+
+
 
   box-shadow:
 
+
+
     0 9px 22px rgba(16,31,53,.09);
 
+
+
 }
+
+
 
 .project-card .tag {
 
+
+
   color: var(--teal);
+
+
 
   font-size: .77rem;
 
+
+
   font-weight: 750;
+
+
 
   text-transform: uppercase;
 
+
+
   letter-spacing: .05em;
 
+
+
 }
+
+
 
 .project-card h3 {
 
+
+
   font-size: 1.18rem;
+
+
 
   margin: .6rem 0;
 
+
+
 }
+
+
 
 .project-card p {
 
+
+
   color: var(--muted);
+
+
 
   font-size: .96rem;
 
+
+
 }
+
+
 
 .project-card a {
 
+
+
   font-weight: 650;
 
+
+
 }
+
+
 
 .pill {
 
+
+
   display: inline-block;
+
+
 
   background: #e3f4f1;
 
+
+
   color: #075c57;
+
+
 
   border-radius: 99px;
 
+
+
   padding: .3rem .7rem;
+
+
 
   margin: .2rem;
 
+
+
   font-size: .8rem;
 
+
+
 }
+
+
 
 .callout-note {
 
+
+
   border-left-color: var(--teal) !important;
+
+
 
 }
 
+
+
 /* ============================================
+
+
 
    13. FOOTER
 
-============================================ */
+
+
+\============================================ */
+
+
 
 footer {
 
+
+
   margin-top: 0;
 
+
+
 }
+
+
 
 .nav-footer {
 
+
+
   background: var(--navy) !important;
 
+
+
   color: white !important;
+
+
 
   border-top: 3px solid var(--teal);
 
+
+
   padding: 35px 5% !important;
 
+
+
 }
+
+
 
 .nav-footer-left,
 
+
+
 .nav-footer-center,
+
+
 
 .nav-footer-right {
 
+
+
   color: white !important;
+
+
 
   font-size: .9rem;
 
+
+
   line-height: 1.8;
 
+
+
 }
+
+
 
 .nav-footer a {
 
+
+
   color: #8de0d5 !important;
+
+
 
   text-decoration: none;
 
+
+
 }
+
+
 
 .nav-footer a:hover {
 
+
+
   color: white !important;
+
+
 
   text-decoration: underline;
 
+
+
 }
+
+
 
 .nav-footer p {
 
+
+
   margin-bottom: 8px;
+
+
 
 }
 
+
+
 /* ============================================
+
+
 
    14. MOBILE RESPONSIVENESS
 
-============================================ */
+
+
+\============================================ */
+
+
 
 @media (max-width: 768px) {
+
+
 
   .welcome-banner {
 
+
+
     padding: 30px 18px;
 
+
+
   }
+
+
 
   .welcome-banner h1 {
 
+
+
     font-size: 1.9rem;
 
+
+
   }
+
+
 
   .about-section {
 
+
+
     padding: 40px 0 60px;
 
+
+
   }
+
+
 
   .about-container {
 
+
+
     padding: 0 22px;
 
+
+
   }
+
+
 
   .about-layout {
 
+
+
     grid-template-columns: 1fr;
+
+
 
     gap: 35px;
 
+
+
   }
+
+
 
   .about-photo {
 
+
+
     max-width: 280px;
+
+
 
     margin: 0 auto;
 
+
+
   }
+
+
 
   .about-biography {
 
+
+
     font-size: 1.05rem;
 
+
+
   }
+
+
 
   .about-biography h2 {
 
+
+
     font-size: 1.7rem;
 
+
+
   }
+
+
 
   .home-intro .about-biography,
 
+
+
   .about-full .about-biography {
+
+
 
     font-size: 1.05rem;
 
+
+
     line-height: 1.75;
 
+
+
   }
+
+
 
   .about-full {
 
+
+
     padding-top: 35px;
+
+
 
     padding-bottom: 45px;
 
+
+
   }
+
+
 
   .about-full .about-layout {
 
+
+
     grid-template-columns: 1fr;
+
+
 
     gap: 25px;
 
+
+
   }
+
+
 
   .about-full .about-photo {
 
+
+
     max-width: 280px;
+
+
 
     margin: 0 auto;
 
+
+
   }
+
+
 
   .nav-footer {
 
+
+
     text-align: center;
+
+
 
     padding: 30px 20px !important;
 
+
+
   }
+
+
 
   .nav-footer-left,
 
+
+
   .nav-footer-center,
+
+
 
   .nav-footer-right {
 
+
+
     margin-bottom: 18px;
+
+
 
   }
 
+
+
 }
+
+
 
 /* ============================================
 
+
+
    15. ACCESSIBILITY
 
-============================================ */
+
+
+\============================================ */
+
+
 
 @media (prefers-reduced-motion: reduce) {
 
+
+
   .welcome-banner h1,
+
+
 
   .about-photo,
 
+
+
   .about-biography {
+
+
 
     animation: none;
 
+
+
   }
+
+
 
   .about-photo img,
 
+
+
   .project-card,
+
+
 
   .read-more-btn {
 
+
+
     transition: none;
 
+
+
   }
+
+
 
   .about-photo:hover img,
 
+
+
   .project-card:hover,
+
+
 
   .read-more-btn:hover {
 
+
+
     transform: none;
+
+
 
   }
 
+
+
 }
+
+
+
 
 
 /* 16. HOMEPAGE DATE AND TIME — consolidated */
+
 .welcome-banner .welcome-banner-content {
+
   display: flex;
+
   flex-direction: row;
+
   align-items: center;
+
   justify-content: space-between;
+
   width: 100%;
+
   max-width: none;
+
   margin: 0 auto;
+
   padding-inline: clamp(20px, 3vw, 55px);
+
   gap: 24px;
+
   box-sizing: border-box;
+
 }
+
 .welcome-banner .welcome-greeting { flex: 0 1 auto; min-width: 0; text-align: left; }
+
 .welcome-banner .welcome-greeting h1 { margin: 0; text-align: left; }
+
 .welcome-banner .welcome-datetime { flex: 0 0 auto; margin-left: auto; text-align: right; color: #fff; }
+
 .welcome-banner #visitor-date,
+
 .welcome-banner #visitor-time { display: block; text-align: right; }
+
 #visitor-date { font-size: 1.05rem; font-weight: 650; }
+
 #visitor-time { font-size: .9rem; color: #c5e5e4; margin-top: 4px; }
+
 @media (min-width: 601px) and (max-width: 1024px) {
+
   .welcome-banner .welcome-banner-content { padding-inline: 24px; gap: 20px; }
+
   .welcome-banner .welcome-greeting h1 { font-size: clamp(1.5rem, 3vw, 2rem); }
+
   .welcome-banner #visitor-date { font-size: .9rem; }
+
   .welcome-banner #visitor-time { font-size: .82rem; }
+
 }
+
 @media (max-width: 600px) {
+
   .welcome-banner .welcome-banner-content {
+
     flex-direction: column;
+
     align-items: flex-start;
+
     justify-content: center;
+
     padding-inline: 16px;
+
     gap: 10px;
+
   }
+
   .welcome-banner .welcome-greeting,
+
   .welcome-banner .welcome-datetime { width: 100%; margin-left: 0; text-align: left; }
+
   .welcome-banner .welcome-greeting h1 { font-size: clamp(1.4rem, 5vw, 1.8rem); }
+
   .welcome-banner #visitor-date,
+
   .welcome-banner #visitor-time { text-align: left; }
+
   .welcome-banner #visitor-date { font-size: .85rem; }
+
   .welcome-banner #visitor-time { font-size: .78rem; }
+
 }
+
+
 
 /* 17. NAVIGATION — dropdowns and keyboard focus */
+
 .navbar .dropdown-menu {
+
   border: 1px solid #dce6ef;
+
   border-radius: 9px;
+
   box-shadow: 0 12px 28px rgba(16,31,53,.16);
+
   padding-block: .4rem;
+
 }
+
 .navbar .dropdown-menu .dropdown-item { padding: .55rem 1rem; }
+
 .navbar .dropdown-menu .dropdown-item:hover,
+
 .navbar .dropdown-menu .dropdown-item:focus { background: #eef3f8; color: #075c57; }
+
 .navbar .nav-link:focus-visible,
+
 .navbar .dropdown-item:focus-visible { outline: 2px solid #8de0d5; outline-offset: 2px; }
 
+
+
 /* 18. NAVY TITLE BANNERS — every standard content page */
+
 body:not(:has(.welcome-banner)) #title-block-header {
+
   width: 100vw;
+
   max-width: none;
+
   margin-left: calc(50% - 50vw);
+
   margin-right: 0;
+
   box-sizing: border-box;
+
   padding: clamp(32px, 4vw, 58px) clamp(24px, 5vw, 85px);
+
   background: linear-gradient(115deg, #101f35, #254b68);
+
   color: #ffffff;
+
   border: 0;
+
 }
+
 body:not(:has(.welcome-banner)) #title-block-header .title,
+
 body:not(:has(.welcome-banner)) #title-block-header h1 {
+
   color: #ffffff;
+
   font-weight: 750;
+
   margin: 0;
+
   border: 0;
+
   font-size: clamp(1.9rem, 3.5vw, 2.7rem);
+
 }
+
 body:not(:has(.welcome-banner)) #title-block-header .subtitle,
+
 body:not(:has(.welcome-banner)) #title-block-header .description,
+
 body:not(:has(.welcome-banner)) #title-block-header .quarto-title-meta {
+
   color: #c5e5e4;
+
 }
+
 @media (max-width: 768px) {
+
   body:not(:has(.welcome-banner)) #title-block-header { padding: 28px 22px; }
+
 }
+
+
 
 /* 19. FUTURE PODCAST TWO-COLUMN PAGE */
+
 .podcast-layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(240px, 1fr); gap: 2rem; align-items: start; }
+
 .podcast-sidebar { background: #fff; border: 1px solid #dce6ef; border-radius: 12px; padding: 1.25rem; }
+
 @media (max-width: 800px) { .podcast-layout { grid-template-columns: 1fr; } }
+
 /* UNIT 5: Append these styles to the END of your existing styles.css */
 
+
+
 .podcast-page {
+
   max-width: 1440px;
+
   margin: 0 auto;
+
   padding: 1rem clamp(16px, 4vw, 56px) 3rem;
+
 }
+
+
 
 .podcast-layout {
+
   display: grid;
+
   grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+
   gap: clamp(24px, 3vw, 48px);
+
   align-items: start;
+
 }
+
+
 
 .podcast-main,
+
 .podcast-sidebar {
+
   min-width: 0;
+
 }
+
+
 
 .podcast-main h2,
+
 .podcast-sidebar h2 {
+
   color: var(--navy, #101f35);
+
   margin-top: 0;
+
 }
+
+
 
 .podcast-sidebar {
+
   background: #f3f7fb;
+
   border: 1px solid #dbe5ee;
+
   border-radius: 12px;
+
   padding: 1.4rem;
+
 }
+
+
 
 .podcast-empty,
+
 .podcast-upcoming,
+
 .event-empty,
+
 .event-card,
+
 .podcast-episode {
+
   background: #fff;
+
   border: 1px solid #dce5ee;
+
   border-radius: 12px;
+
   padding: 1.4rem;
+
   margin: 1rem 0 1.5rem;
+
 }
+
+
 
 .podcast-upcoming {
+
   background: #fff;
+
   margin-bottom: 0;
+
 }
+
+
 
 .podcast-episode,
+
 .event-card {
+
   border-left: 4px solid var(--teal, #087f78);
+
 }
 
+
+
 @media (max-width: 900px) {
+
   .podcast-layout {
+
     grid-template-columns: minmax(0, 1fr);
+
   }
+
   .podcast-page {
+
     padding-inline: 16px;
+
   }
+
 }
+
+
+
 
 
 /* ============================================================
+
    SITE-WIDE MATCHING TITLE BANNERS
+
    Same gradient, height and typography as the welcome/About banner.
+
    Homepage retains its left greeting and right visitor clock.
+
    ============================================================ */
+
 :root {
+
   --site-banner-background: linear-gradient(115deg, #101f35, #254b68);
+
   --site-banner-height: 150px;
+
   --site-banner-heading: clamp(1.9rem, 3vw, 2.5rem);
+
 }
+
+
 
 /* Existing custom About and homepage banners */
+
 .welcome-banner {
+
   background: var(--site-banner-background) !important;
+
   min-height: var(--site-banner-height);
+
   display: flex;
+
   flex-direction: column;
+
   justify-content: center;
+
   align-items: center;
+
   padding: 28px 20px;
+
   text-align: center;
+
 }
+
 .welcome-banner h1 {
+
   font-size: var(--site-banner-heading) !important;
+
   line-height: 1.2;
+
   text-align: center;
+
 }
+
 /* Home: keep the greeting and visitor date/time in their established positions. */
+
 .welcome-banner:has(.welcome-banner-content) { align-items: stretch; }
+
 .welcome-banner:has(.welcome-banner-content) h1 { text-align: left; }
 
+
+
 /* Quarto-generated page banners (all other pages). */
+
 body:not(:has(.welcome-banner)) #title-block-header,
+
 body:not(:has(.welcome-banner)) #title-block-header .quarto-title-banner {
+
   background: var(--site-banner-background) !important;
+
   color: #fff !important;
+
 }
+
 body:not(:has(.welcome-banner)) #title-block-header {
+
   width: 100vw !important;
+
   max-width: none !important;
+
   margin-left: calc(50% - 50vw) !important;
+
   margin-right: 0 !important;
+
   padding: 0 !important;
+
   min-height: var(--site-banner-height);
+
   display: flex;
+
   flex-direction: column;
+
   justify-content: center;
+
   align-items: center;
+
   text-align: center !important;
+
   box-sizing: border-box;
+
 }
+
 body:not(:has(.welcome-banner)) #title-block-header .quarto-title-banner {
+
   width: 100%;
+
   min-height: var(--site-banner-height);
+
   padding: 28px 20px !important;
+
   display: flex;
+
   flex-direction: column;
+
   justify-content: center;
+
   align-items: center;
+
   text-align: center !important;
+
   box-sizing: border-box;
+
 }
+
 body:not(:has(.welcome-banner)) #title-block-header .quarto-title,
+
 body:not(:has(.welcome-banner)) #title-block-header .quarto-title-banner .quarto-title,
+
 body:not(:has(.welcome-banner)) #title-block-header .quarto-title-block,
+
 body:not(:has(.welcome-banner)) #title-block-header .quarto-title-banner .quarto-title-block {
+
   width: 100%;
+
   max-width: 100%;
+
   text-align: center !important;
+
 }
+
 body:not(:has(.welcome-banner)) #title-block-header h1,
+
 body:not(:has(.welcome-banner)) #title-block-header .title {
+
   font-size: var(--site-banner-heading) !important;
+
   line-height: 1.2;
+
   color: #fff !important;
+
   text-align: center !important;
+
   margin: 0 !important;
+
   border: 0 !important;
+
 }
+
 body:not(:has(.welcome-banner)) #title-block-header .subtitle,
+
 body:not(:has(.welcome-banner)) #title-block-header .description {
+
   color: #c5e5e4 !important;
+
   font-size: 1rem !important;
+
   line-height: 1.4;
+
   margin: 8px auto 0 !important;
+
   text-align: center !important;
+
   max-width: 900px;
+
 }
+
 /* Avoid Quarto's right-hand TOC appearing on top of a full-width banner. */
+
 body:not(:has(.welcome-banner)) #quarto-margin-sidebar {
+
   z-index: 1;
+
 }
+
 @media (max-width: 600px) {
+
   :root { --site-banner-height: 150px; }
+
   .welcome-banner,
+
   body:not(:has(.welcome-banner)) #title-block-header .quarto-title-banner {
+
     padding: 22px 16px !important;
+
   }
+
   /* Home mobile retains the previously approved stacked clock. */
+
   .welcome-banner:has(.welcome-banner-content) { align-items: stretch; }
+
 }
+
+
 
 /* Homepage featured content: uniform with the rest of the site */
+
 .homepage-highlights { width:100vw; margin-left:calc(50% - 50vw); background:#f5f8fb; padding:54px 0 64px; box-sizing:border-box; }
+
 .homepage-highlights-inner { max-width:1200px; padding:0 clamp(20px,4vw,48px); margin:auto; }
+
 .homepage-highlights h2, .home-connect h2 { color:var(--navy); margin-bottom:12px; }
+
 .home-highlights-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; margin-top:24px; }
+
 .home-highlight-card { display:flex; flex-direction:column; gap:10px; min-width:0; background:#fff; border:1px solid #dce5ee; border-radius:12px; padding:24px; box-shadow:0 5px 18px rgba(16,31,53,.045); }
+
 .home-highlight-card .highlight-type { font-size:.8rem; font-weight:700; color:var(--teal); letter-spacing:.04em; text-transform:uppercase; }
+
 .home-highlight-card h3 { font-size:1.22rem; margin:0; }
+
 .home-highlight-card h3 a { color:var(--navy); text-decoration:none; }
+
 .home-highlight-card h3 a:hover { color:var(--teal); text-decoration:underline; }
+
 .home-highlight-card p { margin:0; color:var(--muted); line-height:1.65; }
+
 .home-highlight-card .highlight-meta { color:var(--muted); font-size:.85rem; }
+
 .home-highlight-card .highlight-read { margin-top:auto; font-weight:650; }
+
 .home-highlights-empty { grid-column:1/-1; background:#fff; border:1px solid #dce5ee; border-radius:12px; padding:24px; }
+
 .home-highlights-links { margin-top:22px; line-height:1.9; }
+
 .home-connect { text-align:center; max-width:900px; margin:50px auto; padding:0 24px; }
+
 @media(max-width:700px) { .home-highlights-grid { grid-template-columns:1fr; } .homepage-highlights { padding:38px 0 48px; } }
 
+
+
 .home-editorial {
+
   width: 100vw;
+
   margin-left: calc(50% - 50vw);
+
   background: #f7f9fc;
+
   padding: clamp(48px, 6vw, 88px) 22px;
+
   box-sizing: border-box;
+
 }
+
 .home-editorial-inner { max-width: 1240px; margin: 0 auto; }
+
 .home-editorial-heading { text-align: center; max-width: 730px; margin: 0 auto 34px; }
+
 .home-editorial-kicker, .home-editorial-type { color: #087f78; font-size: .74rem; font-weight: 800; letter-spacing: .13em; }
+
 .home-editorial-heading h2 { color: #101f35; border: 0; font-size: clamp(1.7rem, 3vw, 2.45rem); margin: 10px 0 12px; }
+
 .home-editorial-heading p { color: #5f7186; font-size: 1.04rem; line-height: 1.7; }
+
 .home-editorial-grid { display: grid; grid-template-columns: minmax(0, 1.18fr) minmax(0, 1fr); gap: 20px; align-items: stretch; }
+
 .home-editorial-lead, .home-editorial-mini { background: #fff; border: 1px solid #e1e8ef; border-radius: 14px; box-shadow: 0 8px 25px rgba(16,31,53,.05); }
+
 .home-editorial-lead { padding: clamp(26px, 4vw, 48px); min-height: 340px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; border-top: 5px solid #087f78; }
+
 .home-editorial-lead h3 { font-size: clamp(1.55rem, 2.5vw, 2.15rem); margin: 14px 0; color: #101f35; }
+
 .home-editorial-lead p, .home-editorial-mini p { color: #5f7186; line-height: 1.7; }
+
 .home-editorial-side { display: grid; gap: 20px; }
+
 .home-editorial-mini { padding: 25px 29px; }
+
 .home-editorial-mini h3 { font-size: 1.25rem; color: #101f35; margin: 9px 0; }
+
 .home-editorial-link { display: inline-block; margin-top: 12px; font-weight: 700; text-decoration: none; }
+
 .home-editorial-link:hover { text-decoration: underline; }
+
 .home-editorial-podcast { margin-top: 20px; background: linear-gradient(115deg, #101f35, #254b68); color: #fff; border-radius: 14px; padding: 25px 30px; display: flex; align-items: center; gap: 22px; }
+
 .home-editorial-podcast-icon { font-size: 2.2rem; flex: 0 0 auto; }
+
 .home-editorial-podcast-copy { flex: 1 1 auto; min-width: 0; }
+
 .home-editorial-podcast .home-editorial-type { color: #8de0d5; }
+
 .home-editorial-podcast h3 { color: #fff; margin: 7px 0; font-size: 1.35rem; }
+
 .home-editorial-podcast p { color: #dbe7f1; margin-bottom: 0; line-height: 1.55; }
+
 .home-editorial-podcast-link { color: #fff !important; border: 1px solid rgba(255,255,255,.6); border-radius: 7px; padding: 11px 15px; text-decoration: none; font-weight: 700; white-space: nowrap; }
+
 .home-editorial-podcast-link:hover { background: rgba(255,255,255,.12); }
+
 @media (max-width: 800px) { .home-editorial-grid { grid-template-columns: 1fr; } .home-editorial-lead { min-height: 0; } .home-editorial-podcast { flex-wrap: wrap; } }
+
 @media (max-width: 480px) { .home-editorial { padding: 42px 16px; } .home-editorial-mini { padding: 22px; } .home-editorial-podcast { padding: 23px; } .home-editorial-podcast-link { width: 100%; text-align: center; } }
+
 @media (prefers-reduced-motion: reduce) { .home-editorial * { scroll-behavior: auto; } }
 
-
-/* MOBILE NAVIGATION: SOCIAL ICON ALIGNMENT */
-@media (max-width: 1199.98px) {
-
-  /* Target the exact social-icon group */
-  #navbarCollapse > ul.navbar-nav.ms-auto {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
+/* ============================================================
+   MOBILE NAVBAR: FIVE SOCIAL ICONS IN ONE CENTERED ROW
+   Matches the navbar HTML generated by Quarto 1.10.
+   Desktop layout remains unchanged.
+   ============================================================ */
+@media screen and (max-width: 1199.98px) {
+  /* The second navbar list contains Email, ORCID, Facebook,
+     LinkedIn, and Google Scholar. Override mobile stacking. */
+  #quarto-header #navbarCollapse > ul.navbar-nav.navbar-nav-scroll.ms-auto {
+    display: grid !important;
+    grid-template-columns: repeat(5, 44px) !important;
+    grid-template-rows: 44px !important;
     justify-content: center !important;
+    align-content: center !important;
     align-items: center !important;
-
+    column-gap: clamp(4px, 2vw, 12px) !important;
+    row-gap: 0 !important;
     width: 100% !important;
+    max-width: 100% !important;
     max-height: none !important;
     overflow: visible !important;
-
-    margin: 12px 0 0 !important;
-    padding: 12px 0 !important;
-    gap: 12px !important;
-
-    border-top: 1px solid rgba(255,255,255,0.2);
+    margin: 10px 0 0 !important;
+    padding: 12px 0 4px !important;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    list-style: none !important;
   }
 
-  /* Five evenly sized icon containers */
-  #navbarCollapse > ul.navbar-nav.ms-auto > li.nav-item {
-    display: flex !important;
-    flex: 0 0 44px !important;
-    align-items: center !important;
-    justify-content: center !important;
+  #quarto-header #navbarCollapse > ul.navbar-nav.navbar-nav-scroll.ms-auto > li.nav-item {
+    display: block !important;
+    float: none !important;
     width: 44px !important;
+    height: 44px !important;
+    min-width: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
   }
 
-  /* Center each icon inside its link */
-  #navbarCollapse > ul.navbar-nav.ms-auto > li.nav-item > a.nav-link {
+  #quarto-header #navbarCollapse > ul.navbar-nav.navbar-nav-scroll.ms-auto > li.nav-item > a.nav-link {
     display: flex !important;
+    flex-direction: row !important;
     align-items: center !important;
     justify-content: center !important;
     width: 44px !important;
     height: 44px !important;
-    padding: 0 !important;
     margin: 0 !important;
-  }
-
-  /* Standardize icon sizes */
-  #navbarCollapse > ul.navbar-nav.ms-auto i.bi {
-    font-size: 22px !important;
+    padding: 0 !important;
     line-height: 1 !important;
   }
 
-  /* Center the ORCID image */
-  #navbarCollapse > ul.navbar-nav.ms-auto img {
-    display: block !important;
-    width: 22px !important;
-    height: 22px !important;
-    object-fit: contain;
+  #quarto-header #navbarCollapse > ul.navbar-nav.navbar-nav-scroll.ms-auto i.bi {
+    font-size: 21px !important;
+    line-height: 1 !important;
   }
 
-  /* Remove extra spacing from icon labels */
-  #navbarCollapse > ul.navbar-nav.ms-auto .menu-text {
+  #quarto-header #navbarCollapse > ul.navbar-nav.navbar-nav-scroll.ms-auto .menu-text {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
     margin: 0 !important;
     padding: 0 !important;
+    line-height: 1 !important;
+  }
+
+  #quarto-header #navbarCollapse > ul.navbar-nav.navbar-nav-scroll.ms-auto img {
+    display: block !important;
+    width: 21px !important;
+    height: 21px !important;
+    max-width: 21px !important;
+    object-fit: contain;
   }
 }

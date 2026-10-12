@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Godwin Umeobi</title>
+<link>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/</link>
+<atom:link href="https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Research in psychometrics, response latency, and assessment process data</description>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Sat, 10 Oct 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>What Can Response Time Tell Us About Assessment?</title>
+  <dc:creator>Godwin C. Umeobi</dc:creator>
+  <link>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/posts/response-latency/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<blockquote class="blockquote">
+<p><strong>Sample post — replace or revise before publishing.</strong> This is a conceptual reflection, not a report of empirical findings.</p>
+</blockquote>
+<p>Response time provides a window into the processes that occur while people interact with assessment items. Yet timing alone does not establish why someone responded quickly or slowly.</p>
+<section id="questions-worth-exploring" class="level2">
+<h2 class="anchored" data-anchor-id="questions-worth-exploring">Questions worth exploring</h2>
+<ul>
+<li>When is a fast response evidence of fluency, and when might it reflect insufficient engagement?</li>
+<li>How does item presentation format influence response timing?</li>
+<li>Which aspects of response latency are most informative for measurement quality?</li>
+</ul>
+<p>A useful research direction is to combine timing with item features and other process indicators rather than interpreting duration in isolation.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Response Latency</category>
+  <category>Research Reflections</category>
+  <category>Psychometrics</category>
+  <guid>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/posts/response-latency/</guid>
+  <pubDate>Sat, 10 Oct 2026 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>When Does a Survey Item Become Sufficiently Understandable?</title>
+  <dc:creator>Godwin C. Umeobi</dc:creator>
+  <link>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/posts/semantic-sufficiency/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<blockquote class="blockquote">
+<p><strong>Sample post — replace or revise before publishing.</strong> This is a conceptual reflection, not a report of empirical findings.</p>
+</blockquote>
+<p>In a spoken survey item, the full recording may not always be necessary before a respondent can identify what is being asked. This raises a measurement question: at what point has enough meaning been communicated to support a response?</p>
+<p>Possible research approaches include structured human judgments, AI-assisted evaluations, and comparisons with observed response timing. Each approach raises questions about reliability, validity, and generalizability.</p>
+
+
+
+ ]]></description>
+  <category>Survey Methodology</category>
+  <category>Research Ideas</category>
+  <category>Process Data</category>
+  <guid>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/posts/semantic-sufficiency/</guid>
+  <pubDate>Sat, 03 Oct 2026 04:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

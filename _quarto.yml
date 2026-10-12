@@ -4,8 +4,9 @@ project:
 
 website:
   title: "Godwin Umeobi"
+  site-url: "https://cgodwinumeobi-cloud.github.io/Academic-Website/"
   description: "Research in psychometrics, response latency, and assessment process data"
-  # Set site-url to your published website address when available.
+  
   navbar:
     title: "Godwin Umeobi"
     title-href: index.qmd
@@ -63,7 +64,6 @@ website:
       - icon: envelope
         href: "mailto:cgodwin.umeobi@gmail.com"
         aria-label: Email        
-
       - text: '<img src="https://cdn.simpleicons.org/orcid/FFFFFF" alt="ORCID" width="22" height="22">'
         href: "https://orcid.org/0000-0001-7480-6451"
         aria-label: "View ORCID profile"

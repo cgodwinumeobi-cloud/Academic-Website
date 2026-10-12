@@ -62,9 +62,9 @@ website:
     right:
       - icon: envelope
         href: "mailto:cgodwin.umeobi@gmail.com"
-        aria-label: Email
-        text: '<img src="https://cdn.simpleicons.org/orcid/FFFFFF" alt="ORCID" width="22" height="22">'
+        aria-label: Email        
 
+      - text: '<img src="https://cdn.simpleicons.org/orcid/FFFFFF" alt="ORCID" width="22" height="22">'
         href: "https://orcid.org/0000-0001-7480-6451"
         aria-label: "View ORCID profile"
       - icon: facebook

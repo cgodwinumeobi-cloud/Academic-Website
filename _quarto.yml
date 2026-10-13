@@ -6,9 +6,9 @@ website:
   title: "Godwin Umeobi"
   site-url: "https://cgodwinumeobi-cloud.github.io/Academic-Website/"
   description: "Research in psychometrics, response latency, and assessment process data"
-  
+ 
   navbar:
-    title: "Godwin Umeobi"
+    title: '<i class="bi bi-house-door-fill" aria-hidden="true"></i> Home'
     title-href: index.qmd
     background: "#101f35"
     foreground: "#ffffff"

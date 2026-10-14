@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Godwin Umeobi</title>
-<link>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/</link>
-<atom:link href="https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://www.godwinumeobi.com/blog/</link>
+<atom:link href="https://www.godwinumeobi.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Research in psychometrics, response latency, and assessment process data</description>
 <generator>quarto-1.10.19</generator>
 <lastBuildDate>Sat, 10 Oct 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>What Can Response Time Tell Us About Assessment?</title>
   <dc:creator>Godwin C. Umeobi</dc:creator>
-  <link>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/posts/response-latency/</link>
+  <link>https://www.godwinumeobi.com/blog/posts/response-latency/</link>
   <description><![CDATA[ 
 
 
@@ -41,13 +41,13 @@
   <category>Response Latency</category>
   <category>Research Reflections</category>
   <category>Psychometrics</category>
-  <guid>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/posts/response-latency/</guid>
+  <guid>https://www.godwinumeobi.com/blog/posts/response-latency/</guid>
   <pubDate>Sat, 10 Oct 2026 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>When Does a Survey Item Become Sufficiently Understandable?</title>
   <dc:creator>Godwin C. Umeobi</dc:creator>
-  <link>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/posts/semantic-sufficiency/</link>
+  <link>https://www.godwinumeobi.com/blog/posts/semantic-sufficiency/</link>
   <description><![CDATA[ 
 
 
@@ -66,7 +66,7 @@
   <category>Survey Methodology</category>
   <category>Research Ideas</category>
   <category>Process Data</category>
-  <guid>https://cgodwinumeobi-cloud.github.io/Academic-Website/blog/posts/semantic-sufficiency/</guid>
+  <guid>https://www.godwinumeobi.com/blog/posts/semantic-sufficiency/</guid>
   <pubDate>Sat, 03 Oct 2026 04:00:00 GMT</pubDate>
 </item>
 </channel>

@@ -63,6 +63,9 @@ website:
         text: Podcast
       - href: events.qmd
         text: Events
+      - text: "Contact"
+        icon: envelope
+        href: contact.qmd
     right:
       - icon: envelope
         href: "mailto:contact@godwinumeobi.com"

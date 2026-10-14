@@ -1,0 +1,63 @@
+
+---
+title: "Contact Me"
+page-layout: full
+toc: false
+title-block-banner: false
+---
+
+::: {.welcome-banner}
+# Contact Me
+:::
+
+::: {.contact-intro}
+I welcome inquiries about research collaborations, psychological and educational measurement, academic partnerships, speaking engagements, and other professional opportunities.
+
+Please use the appropriate email address below. I look forward to connecting with you.
+:::
+
+::: {.contact-grid}
+
+::: {.contact-card}
+### ✉️ General Inquiries
+
+For general questions, professional correspondence, and website inquiries.
+
+[contact@godwinumeobi.com](mailto:contact@godwinumeobi.com)
+:::
+
+::: {.contact-card}
+### 🔬 Research Inquiries
+
+For research discussions, psychometrics, process data, response latency, and measurement-related inquiries.
+
+[research@godwinumeobi.com](mailto:research@godwinumeobi.com)
+:::
+
+::: {.contact-card}
+### 🤝 Academic Collaborations
+
+For collaborative research, institutional partnerships, and academic projects.
+
+[collaborations@godwinumeobi.com](mailto:collaborations@godwinumeobi.com)
+:::
+
+::: {.contact-card}
+### 🎤 Speaking & Presentations
+
+For conference presentations, workshops, seminars, and speaking invitations.
+
+[speaking@godwinumeobi.com](mailto:speaking@godwinumeobi.com)
+:::
+
+:::
+
+::: {.contact-affiliation}
+## Academic Affiliation
+
+**Department of Psychology**  
+Morgan State University  
+Baltimore, Maryland, USA
+
+**Website:** [www.godwinumeobi.com](https://www.godwinumeobi.com/)
+:::

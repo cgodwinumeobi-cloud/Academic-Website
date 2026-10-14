@@ -1,17 +1,17 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/posts/response-latency/index.html",
-      "/blog/posts/semantic-sufficiency/index.html"
-    ]
+    "listing": "/blogs/leadership/index.html",
+    "items": []
   },
   {
     "listing": "/blogs/faith-lifestyle/index.html",
     "items": []
   },
   {
-    "listing": "/blogs/leadership/index.html",
-    "items": []
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/response-latency/index.html",
+      "/blog/posts/semantic-sufficiency/index.html"
+    ]
   }
 ]

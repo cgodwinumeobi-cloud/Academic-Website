@@ -126,25 +126,32 @@
     "text": "Past Events\n\nPast event listings will be added here.\nThis section will document completed presentations, workshops, and other relevant events, with links to publicly available materials where appropriate."
   },
   {
-    "objectID": "blogs/index.html",
-    "href": "blogs/index.html",
-    "title": "Blogs & Reflections",
+    "objectID": "blogs/leadership/index.html",
+    "href": "blogs/leadership/index.html",
+    "title": "Leadership Reflections",
     "section": "",
-    "text": "Explore three spaces for writing and reflection.\n\n\nResearch Reflections\nResearch questions, methodological ideas, literature discussions, and reflections on measurement science.\nExplore Research Reflections\n\n\nFaith & Lifestyle\nReflections on faith, personal growth, life experiences, and everyday living.\nExplore Faith & Lifestyle\n\n\nLeadership Reflections\nExperiences, lessons, and perspectives on leadership, service, and collaboration.\nExplore Leadership Reflections"
+    "text": "A space to explore leadership through experiences, lessons learned, and reflections on service, collaboration, and personal development.\nNew reflections will appear here as they are published.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/posts/semantic-sufficiency/index.html",
-    "href": "blog/posts/semantic-sufficiency/index.html",
-    "title": "When Does a Survey Item Become Sufficiently Understandable?",
+    "objectID": "blogs/faith-lifestyle/index.html",
+    "href": "blogs/faith-lifestyle/index.html",
+    "title": "Faith & Lifestyle",
     "section": "",
-    "text": "Sample post — replace or revise before publishing. This is a conceptual reflection, not a report of empirical findings.\n\nIn a spoken survey item, the full recording may not always be necessary before a respondent can identify what is being asked. This raises a measurement question: at what point has enough meaning been communicated to support a response?\nPossible research approaches include structured human judgments, AI-assisted evaluations, and comparisons with observed response timing. Each approach raises questions about reliability, validity, and generalizability."
+    "text": "A space for reflections on faith, life experiences, values, personal growth, and everyday living.\nNew reflections will appear here as they are published.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Research Reflections",
+    "objectID": "blog/posts/response-latency/index.html",
+    "href": "blog/posts/response-latency/index.html",
+    "title": "What Can Response Time Tell Us About Assessment?",
     "section": "",
-    "text": "This is my public research notebook: a place to reflect on research questions, engage with the literature, discuss methodological approaches, and develop ideas worth exploring.\nPosts represent scholarly commentary unless explicitly identified as formal peer-reviewed research. Exploratory claims should be interpreted with their stated limitations.\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Can Response Time Tell Us About Assessment?\n\n\n\nResponse Latency\n\nResearch Reflections\n\nPsychometrics\n\n\n\nQuestions worth asking about timing and response processes.\n\n\n\nGodwin C. Umeobi\n\n\nOct 10, 2026\n\n\n\n\n\n\n\n\n\n\n\nWhen Does a Survey Item Become Sufficiently Understandable?\n\n\n\nSurvey Methodology\n\nResearch Ideas\n\nProcess Data\n\n\n\nA conceptual question about meaning and response timing in spoken survey items.\n\n\n\nGodwin C. Umeobi\n\n\nOct 3, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Sample post — replace or revise before publishing. This is a conceptual reflection, not a report of empirical findings.\nResponse time provides a window into the processes that occur while people interact with assessment items. Yet timing alone does not establish why someone responded quickly or slowly."
+  },
+  {
+    "objectID": "blog/posts/response-latency/index.html#questions-worth-exploring",
+    "href": "blog/posts/response-latency/index.html#questions-worth-exploring",
+    "title": "What Can Response Time Tell Us About Assessment?",
+    "section": "Questions worth exploring",
+    "text": "Questions worth exploring\n\nWhen is a fast response evidence of fluency, and when might it reflect insufficient engagement?\nHow does item presentation format influence response timing?\nWhich aspects of response latency are most informative for measurement quality?\n\nA useful research direction is to combine timing with item features and other process indicators rather than interpreting duration in isolation."
   },
   {
     "objectID": "about.html#academic-background",
@@ -189,32 +196,32 @@
     "text": "Academic and Professional Goals\nMy overarching goal is to advance the understanding of human behavior through rigorous measurement and research, contribute to improvements in assessment practices and data quality, and support the development of future scholars through teaching, mentorship, and collaborative research."
   },
   {
-    "objectID": "blog/posts/response-latency/index.html",
-    "href": "blog/posts/response-latency/index.html",
-    "title": "What Can Response Time Tell Us About Assessment?",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Research Reflections",
     "section": "",
-    "text": "Sample post — replace or revise before publishing. This is a conceptual reflection, not a report of empirical findings.\nResponse time provides a window into the processes that occur while people interact with assessment items. Yet timing alone does not establish why someone responded quickly or slowly."
+    "text": "This is my public research notebook: a place to reflect on research questions, engage with the literature, discuss methodological approaches, and develop ideas worth exploring.\nPosts represent scholarly commentary unless explicitly identified as formal peer-reviewed research. Exploratory claims should be interpreted with their stated limitations.\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Can Response Time Tell Us About Assessment?\n\n\n\nResponse Latency\n\nResearch Reflections\n\nPsychometrics\n\n\n\nQuestions worth asking about timing and response processes.\n\n\n\nGodwin C. Umeobi\n\n\nOct 10, 2026\n\n\n\n\n\n\n\n\n\n\n\nWhen Does a Survey Item Become Sufficiently Understandable?\n\n\n\nSurvey Methodology\n\nResearch Ideas\n\nProcess Data\n\n\n\nA conceptual question about meaning and response timing in spoken survey items.\n\n\n\nGodwin C. Umeobi\n\n\nOct 3, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/posts/response-latency/index.html#questions-worth-exploring",
-    "href": "blog/posts/response-latency/index.html#questions-worth-exploring",
-    "title": "What Can Response Time Tell Us About Assessment?",
-    "section": "Questions worth exploring",
-    "text": "Questions worth exploring\n\nWhen is a fast response evidence of fluency, and when might it reflect insufficient engagement?\nHow does item presentation format influence response timing?\nWhich aspects of response latency are most informative for measurement quality?\n\nA useful research direction is to combine timing with item features and other process indicators rather than interpreting duration in isolation."
+    "objectID": "blog/posts/semantic-sufficiency/index.html",
+    "href": "blog/posts/semantic-sufficiency/index.html",
+    "title": "When Does a Survey Item Become Sufficiently Understandable?",
+    "section": "",
+    "text": "Sample post — replace or revise before publishing. This is a conceptual reflection, not a report of empirical findings.\n\nIn a spoken survey item, the full recording may not always be necessary before a respondent can identify what is being asked. This raises a measurement question: at what point has enough meaning been communicated to support a response?\nPossible research approaches include structured human judgments, AI-assisted evaluations, and comparisons with observed response timing. Each approach raises questions about reliability, validity, and generalizability."
   },
   {
-    "objectID": "blogs/faith-lifestyle/index.html",
-    "href": "blogs/faith-lifestyle/index.html",
-    "title": "Faith & Lifestyle",
+    "objectID": "blogs/index.html",
+    "href": "blogs/index.html",
+    "title": "Blogs & Reflections",
     "section": "",
-    "text": "A space for reflections on faith, life experiences, values, personal growth, and everyday living.\nNew reflections will appear here as they are published.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Explore three spaces for writing and reflection.\n\n\nResearch Reflections\nResearch questions, methodological ideas, literature discussions, and reflections on measurement science.\nExplore Research Reflections\n\n\nFaith & Lifestyle\nReflections on faith, personal growth, life experiences, and everyday living.\nExplore Faith & Lifestyle\n\n\nLeadership Reflections\nExperiences, lessons, and perspectives on leadership, service, and collaboration.\nExplore Leadership Reflections"
   },
   {
-    "objectID": "blogs/leadership/index.html",
-    "href": "blogs/leadership/index.html",
-    "title": "Leadership Reflections",
-    "section": "",
-    "text": "A space to explore leadership through experiences, lessons learned, and reflections on service, collaboration, and personal development.\nNew reflections will appear here as they are published.\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "contact.html#academic-affiliation",
+    "href": "contact.html#academic-affiliation",
+    "title": "Contact Me",
+    "section": "Academic Affiliation",
+    "text": "Academic Affiliation\nDepartment of Psychology\nMorgan State University\nBaltimore, Maryland, USA\nWebsite: www.godwinumeobi.com"
   },
   {
     "objectID": "index.html#godwin-c.-umeobi",

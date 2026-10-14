@@ -2437,3 +2437,96 @@ body:not(:has(.welcome-banner)) #quarto-margin-sidebar {
     object-fit: contain;
   }
 }
+
+
+/* =========================================
+   CONTACT PAGE
+   ========================================= */
+
+.contact-intro {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: #203049;
+}
+
+.contact-grid {
+  max-width: 1100px;
+  margin: 2rem auto 3rem;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.contact-card {
+  background: #ffffff;
+  border: 1px solid #dce5ec;
+  border-top: 4px solid #087f78;
+  border-radius: 12px;
+  padding: 1.8rem;
+  box-shadow: 0 4px 16px rgba(16, 31, 53, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(16, 31, 53, 0.1);
+}
+
+.contact-card h3 {
+  color: #101f35;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.contact-card a {
+  color: #087f78;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.contact-affiliation {
+  max-width: 1100px;
+  margin: 2rem auto 4rem;
+  padding: 2rem;
+  background: #eef3f8;
+  border-radius: 12px;
+  color: #203049;
+}
+
+.contact-affiliation h2 {
+  color: #101f35;
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    padding: 1.4rem;
+  }
+
+  .contact-intro {
+    font-size: 1rem;
+  }
+
+  .contact-affiliation {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-card {
+    transition: none;
+  }
+
+  .contact-card:hover {
+    transform: none;
+  }
+}

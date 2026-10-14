@@ -50,6 +50,31 @@ For conference presentations, workshops, seminars, and speaking invitations.
 [speaking@godwinumeobi.com](mailto:speaking@godwinumeobi.com)
 :::
 
+
+::: {.contact-card}
+### ✍️ Blogs & Reflections
+
+For inquiries, feedback, and conversations about blog posts, reflections, and other published commentary.
+
+[blogsandreflections@godwinumeobi.com](mailto:blogsandreflections@godwinumeobi.com)
+:::
+
+::: {.contact-card}
+### 📅 Events
+
+For event-related inquiries, invitations, participation, and coordination.
+
+[events@godwinumeobi.com](mailto:events@godwinumeobi.com)
+:::
+
+::: {.contact-card}
+### 🎙️ Podcast
+
+For podcast inquiries, guest appearances, interviews, and potential collaborations.
+
+[podcast@godwinumeobi.com](mailto:podcast@godwinumeobi.com)
+:::
+
 :::
 
 ::: {.contact-affiliation}

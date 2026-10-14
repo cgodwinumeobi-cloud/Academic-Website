@@ -67,9 +67,6 @@ website:
         icon: envelope
         href: contact.qmd
     right:
-      - icon: envelope
-        href: "mailto:contact@godwinumeobi.com"
-        aria-label: "Contact Godwin Umeobi by email"        
       - text: '<img src="https://cdn.simpleicons.org/orcid/FFFFFF" alt="ORCID" width="22" height="22">'
         href: "https://orcid.org/0000-0001-7480-6451"
         aria-label: "View ORCID profile"
